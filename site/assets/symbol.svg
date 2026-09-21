@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="7 15 78 50" role="img" aria-label="FleetCare 심볼">
+  <title>FleetCare 심볼</title>
+  <path d="M12 20 C25.3333 20 37 24.3333 47 33" fill="none" stroke="#14293D" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M12 40 L45 40" fill="none" stroke="#14293D" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M12 60 C25.3333 60 37 55.6667 47 47" fill="none" stroke="#14293D" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M70.7 21.7 C78.3693 24.5225 83.465 31.8278 83.465 40 C83.465 48.1722 78.3693 55.4775 70.7 58.3" fill="none" stroke="#22A06B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M79 40 C79 48.2843 72.2843 55 64 55 C55.7157 55 49 48.2843 49 40 C49 31.7157 55.7157 25 64 25 C72.2843 25 79 31.7157 79 40" fill="#14293D" fill-rule="evenodd"/>
+  <path d="M51.88 43.5 L51.88 40.35 C51.88 39.3 52.552 38.628 53.644 38.46 L57.172 37.788 L60.196 34.512 C60.868 33.84 61.54 33.588 62.464 33.588 L66.832 33.588 C67.924 33.588 68.596 33.924 69.058 34.512 L71.704 37.788 L74.308 38.46 C75.4 38.67 76.072 39.3 76.072 40.35 L76.072 43.5 Z" fill="#FFFFFF" fill-rule="evenodd"/>
+  <path d="M60.238 43.5 C60.238 44.9845 59.0345 46.188 57.55 46.188 C56.0655 46.188 54.862 44.9845 54.862 43.5 C54.862 42.0155 56.0655 40.812 57.55 40.812 C59.0345 40.812 60.238 42.0155 60.238 43.5" fill="#FFFFFF" fill-rule="evenodd"/>
+  <path d="M73.048 43.5 C73.048 44.9845 71.8445 46.188 70.36 46.188 C68.8755 46.188 67.672 44.9845 67.672 43.5 C67.672 42.0155 68.8755 40.812 70.36 40.812 C71.8445 40.812 73.048 42.0155 73.048 43.5" fill="#FFFFFF" fill-rule="evenodd"/>
+</svg>

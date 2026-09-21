@@ -1,0 +1,2909 @@
+{
+ "pages": [
+  {
+   "id": "common",
+   "title": "공통 (모든 페이지)",
+   "file": "",
+   "items": [
+    {
+     "key": "common:381b7627bd",
+     "owner": "common",
+     "tag": "h2",
+     "label": "제목",
+     "text": "차량 대수와 만기일만 알려주시면, 나머지는 저희가 정리합니다."
+    },
+    {
+     "key": "common:3ecfc7955c",
+     "owner": "common",
+     "tag": "p",
+     "label": "본문",
+     "text": "관리 대행 비용은 받지 않습니다. 기존에 받으신 견적서가 있으면 그대로 보내 주세요."
+    },
+    {
+     "key": "common:0d13723362",
+     "owner": "common",
+     "tag": "p",
+     "label": "본문",
+     "text": "법인 전용 플릿 에이전트 — 도입·특장·보험·만기 통합 케어"
+    },
+    {
+     "key": "common:076925c571",
+     "owner": "common",
+     "tag": "p",
+     "label": "본문",
+     "text": "메뉴"
+    },
+    {
+     "key": "common:04c7732988",
+     "owner": "common",
+     "tag": "p",
+     "label": "본문",
+     "text": "회사 정보"
+    },
+    {
+     "key": "common:5f0e2c9b01",
+     "owner": "common",
+     "tag": "dt",
+     "label": "항목명",
+     "text": "상호"
+    },
+    {
+     "key": "common:3c1bfd30a8",
+     "owner": "common",
+     "tag": "dd",
+     "label": "항목 내용",
+     "text": "주식회사 제이디엔드"
+    },
+    {
+     "key": "common:120372c65f",
+     "owner": "common",
+     "tag": "dt",
+     "label": "항목명",
+     "text": "대표이사"
+    },
+    {
+     "key": "common:734f220740",
+     "owner": "common",
+     "tag": "dd",
+     "label": "항목 내용",
+     "text": "박동천"
+    },
+    {
+     "key": "common:dd86c376c1",
+     "owner": "common",
+     "tag": "dt",
+     "label": "항목명",
+     "text": "사업자등록번호"
+    },
+    {
+     "key": "common:a6c40b58d8",
+     "owner": "common",
+     "tag": "dd",
+     "label": "항목 내용",
+     "text": "766-86-02631"
+    },
+    {
+     "key": "common:117bab8097",
+     "owner": "common",
+     "tag": "dt",
+     "label": "항목명",
+     "text": "주소"
+    },
+    {
+     "key": "common:d5e1c39d47",
+     "owner": "common",
+     "tag": "dd",
+     "label": "항목 내용",
+     "text": "서울특별시 영등포구 여의대방로 379, 605호"
+    },
+    {
+     "key": "common:cc90791fff",
+     "owner": "common",
+     "tag": "dt",
+     "label": "항목명",
+     "text": "대표전화"
+    },
+    {
+     "key": "common:3c37764a2b",
+     "owner": "common",
+     "tag": "dt",
+     "label": "항목명",
+     "text": "이메일"
+    },
+    {
+     "key": "common:36a7528cda",
+     "owner": "common",
+     "tag": "p",
+     "label": "본문",
+     "text": "© 2026 주식회사 제이디엔드. All rights reserved."
+    }
+   ]
+  },
+  {
+   "id": "index",
+   "title": "홈",
+   "file": "index.html",
+   "items": [
+    {
+     "key": "index:66da9957f6",
+     "owner": "index",
+     "tag": "h1",
+     "label": "제목",
+     "text": "법인차량 도입부터<br>화물 특장, 보험, 만기 관리까지<br>단 하나의 전담 창구"
+    },
+    {
+     "key": "index:6e5b95bc28",
+     "owner": "index",
+     "tag": "p",
+     "label": "본문",
+     "text": "리스사가 모르는 특장 프로세스 해결 · 운용리스 보험 다이렉트 케어 · 만기 손익 최적화 분석 리포트"
+    },
+    {
+     "key": "index:33d507bbda",
+     "owner": "index",
+     "tag": "p",
+     "label": "본문",
+     "text": "차량관리 대행 비용은 받지 않습니다."
+    },
+    {
+     "key": "index:3924c53747",
+     "owner": "index",
+     "tag": "h2",
+     "label": "제목",
+     "text": "전담자 한 명이 이어서 맡는 여섯 가지"
+    },
+    {
+     "key": "index:5f2aec33eb",
+     "owner": "index",
+     "tag": "p",
+     "label": "본문",
+     "text": "차량 한 대를 들이는 일은 계약으로 끝나지 않습니다. 특장 승인, 보험 갱신, 만기 정산, 그리고 현장에서 쓰는 사람의 불편이 계속 따라옵니다. 그 전부를 한 창구에서 받습니다."
+    },
+    {
+     "key": "index:ddfe163345",
+     "owner": "index",
+     "tag": "p",
+     "label": "본문",
+     "text": "01"
+    },
+    {
+     "key": "index:30f347c731",
+     "owner": "index",
+     "tag": "h3",
+     "label": "소제목",
+     "text": "법인차량 현장관리시스템"
+    },
+    {
+     "key": "index:02c7a40b10",
+     "owner": "index",
+     "tag": "p",
+     "label": "본문",
+     "text": "분기마다 현장을 직접 방문해 차량 상태와 문제점을 정리하고, 본사 총무팀과 협의해 개선점을 도출·관리하는 핵심 서비스입니다."
+    },
+    {
+     "key": "index:bcac9d1d8e",
+     "owner": "index",
+     "tag": "p",
+     "label": "본문",
+     "text": "02"
+    },
+    {
+     "key": "index:23382834d5",
+     "owner": "index",
+     "tag": "h3",
+     "label": "소제목",
+     "text": "화물 특장 리스 전문"
+    },
+    {
+     "key": "index:cc0edb8a08",
+     "owner": "index",
+     "tag": "p",
+     "label": "본문",
+     "text": "특장 비용을 리스료에 포함하고 원상복구 제외 반납 조건으로 설계합니다. 외주장착이 포함된 건의 금융 승인을 금융사와 직접 소통해 풀어냅니다."
+    },
+    {
+     "key": "index:3ea6c91e24",
+     "owner": "index",
+     "tag": "p",
+     "label": "본문",
+     "text": "03"
+    },
+    {
+     "key": "index:f58c3d5ecd",
+     "owner": "index",
+     "tag": "h3",
+     "label": "소제목",
+     "text": "금융 비교·심사 대행"
+    },
+    {
+     "key": "index:ec78b0c661",
+     "owner": "index",
+     "tag": "p",
+     "label": "본문",
+     "text": "여러 금융사에 같은 조건으로 견적을 넣어 비교표로 정리합니다. 리스·렌탈이 중심이지만 할부까지 같은 기준으로 놓고 비교합니다. 기존 견적 재설계, 심사 대행, 정비 포함 상품 연결까지 진행합니다."
+    },
+    {
+     "key": "index:798f861ee7",
+     "owner": "index",
+     "tag": "p",
+     "label": "본문",
+     "text": "04"
+    },
+    {
+     "key": "index:0eb456fc63",
+     "owner": "index",
+     "tag": "h3",
+     "label": "소제목",
+     "text": "운용리스 통합 보험 관리"
+    },
+    {
+     "key": "index:d1f397447d",
+     "owner": "index",
+     "tag": "p",
+     "label": "본문",
+     "text": "제휴 보험대리점과 연계해 비교 가입부터 매년 갱신까지. 차량별 갱신일을 대장으로 붙여 관리합니다."
+    },
+    {
+     "key": "index:28a5c28185",
+     "owner": "index",
+     "tag": "p",
+     "label": "본문",
+     "text": "05"
+    },
+    {
+     "key": "index:0eb3c2eb50",
+     "owner": "index",
+     "tag": "h3",
+     "label": "소제목",
+     "text": "만기 손익 최적화 분석"
+    },
+    {
+     "key": "index:c8e387ab5c",
+     "owner": "index",
+     "tag": "p",
+     "label": "본문",
+     "text": "중고차 실거래 시세 대비 잔존가치를 따져 반납과 인수 후 매각을 숫자로 비교합니다. 만기일 역산 발주로 차량 공백을 막습니다."
+    },
+    {
+     "key": "index:7316b3d5fe",
+     "owner": "index",
+     "tag": "p",
+     "label": "본문",
+     "text": "06"
+    },
+    {
+     "key": "index:b1f21b0bfd",
+     "owner": "index",
+     "tag": "h3",
+     "label": "소제목",
+     "text": "차량 비용절감 컨설팅"
+    },
+    {
+     "key": "index:5b53ecd833",
+     "owner": "index",
+     "tag": "p",
+     "label": "본문",
+     "text": "도입 시점 조건 조정, 운영 중 보험 요율 재비교, 만기 시점 손익 비교. 계약 기간 전체 비용을 세 시점에서 점검합니다."
+    },
+    {
+     "key": "index:9cee6368a1",
+     "owner": "index",
+     "tag": "h2",
+     "label": "제목",
+     "text": "무엇이 다른가"
+    },
+    {
+     "key": "index:6f8dcb9afe",
+     "owner": "index",
+     "tag": "p",
+     "label": "본문",
+     "text": "가격표를 비교해 드리는 곳은 많습니다. 계약한 뒤에 무엇을 해주는가에서 갈립니다."
+    },
+    {
+     "key": "index:98a4f593aa",
+     "owner": "index",
+     "tag": "caption",
+     "label": "표 설명",
+     "text": "기존 캐피탈·일반 중개사와 플릿케어 비교"
+    },
+    {
+     "key": "index:af2feed6ce",
+     "owner": "index",
+     "tag": "th",
+     "label": "표 머리",
+     "text": "구분"
+    },
+    {
+     "key": "index:0f96fed164",
+     "owner": "index",
+     "tag": "th",
+     "label": "표 머리",
+     "text": "기존 캐피탈 / 일반 중개사"
+    },
+    {
+     "key": "index:f0245aaa14",
+     "owner": "index",
+     "tag": "th",
+     "label": "표 머리",
+     "text": "플릿케어"
+    },
+    {
+     "key": "index:089c40f3fc",
+     "owner": "index",
+     "tag": "th",
+     "label": "표 머리",
+     "text": "금융 비교"
+    },
+    {
+     "key": "index:386acd8b0f",
+     "owner": "index",
+     "tag": "td",
+     "label": "표 내용",
+     "text": "자사 상품만 제안합니다."
+    },
+    {
+     "key": "index:6ff9235bc7",
+     "owner": "index",
+     "tag": "td",
+     "label": "표 내용",
+     "text": "국내 27개 렌트·리스사와 연계해 조건을 비교하고 최적 조건을 제안합니다."
+    },
+    {
+     "key": "index:94aa41fede",
+     "owner": "index",
+     "tag": "th",
+     "label": "표 머리",
+     "text": "심사 요청·진행"
+    },
+    {
+     "key": "index:7ee5acd8aa",
+     "owner": "index",
+     "tag": "td",
+     "label": "표 내용",
+     "text": "특장·용품 구조를 몰라 승인이 지연되고 소통이 막힙니다."
+    },
+    {
+     "key": "index:5483d62903",
+     "owner": "index",
+     "tag": "td",
+     "label": "표 내용",
+     "text": "리스사 출신 노하우로 금융사와 직접 소통해 원스톱으로 승인을 받습니다."
+    },
+    {
+     "key": "index:00d2cc5c95",
+     "owner": "index",
+     "tag": "th",
+     "label": "표 머리",
+     "text": "외주장착 비용·반납조건"
+    },
+    {
+     "key": "index:9a5cdae63b",
+     "owner": "index",
+     "tag": "td",
+     "label": "표 내용",
+     "text": "리프트·도색·래핑 등 외주장착 비용은 리스에서 제외되고, 반납 시 원상복구를 요구합니다."
+    },
+    {
+     "key": "index:c9f9f7682d",
+     "owner": "index",
+     "tag": "td",
+     "label": "표 내용",
+     "text": "계약 전에 외주장착 비용 포함과 원상복구 제외 조건을 협의하고, 가능한 금융사를 골라 진행합니다."
+    },
+    {
+     "key": "index:dc5ef88e7c",
+     "owner": "index",
+     "tag": "th",
+     "label": "표 머리",
+     "text": "운용리스 보험"
+    },
+    {
+     "key": "index:5193af93c5",
+     "owner": "index",
+     "tag": "td",
+     "label": "표 내용",
+     "text": "법인 담당자가 직접 보험사를 비교하고 가입해야 합니다."
+    },
+    {
+     "key": "index:b1b78ea083",
+     "owner": "index",
+     "tag": "td",
+     "label": "표 내용",
+     "text": "보험대리점과 연계해 비교 가입과 매년 갱신을 관리하고, 차량별 갱신일을 대장으로 붙입니다."
+    },
+    {
+     "key": "index:c758419920",
+     "owner": "index",
+     "tag": "th",
+     "label": "표 머리",
+     "text": "계약 후 현장 관리"
+    },
+    {
+     "key": "index:6d7bc923d8",
+     "owner": "index",
+     "tag": "td",
+     "label": "표 내용",
+     "text": "없습니다. 계약이 끝나면 현장에 오지 않습니다."
+    },
+    {
+     "key": "index:ccb408ddef",
+     "owner": "index",
+     "tag": "td",
+     "label": "표 내용",
+     "text": "분기별 현장 방문 → 리포트 → 본사 협의 → 개선 관리로 이어집니다."
+    },
+    {
+     "key": "index:9d5abd7a4a",
+     "owner": "index",
+     "tag": "th",
+     "label": "표 머리",
+     "text": "만기 처리"
+    },
+    {
+     "key": "index:7cdacc1e92",
+     "owner": "index",
+     "tag": "td",
+     "label": "표 내용",
+     "text": "캐피탈사가 통보하는 반납·인수 안내에 의존합니다."
+    },
+    {
+     "key": "index:8388d20ba5",
+     "owner": "index",
+     "tag": "td",
+     "label": "표 내용",
+     "text": "중고차 시세를 연동한 정량 손익 리포트를 드리고 매각안까지 제안합니다."
+    },
+    {
+     "key": "index:a81640f2ac",
+     "owner": "index",
+     "tag": "th",
+     "label": "표 머리",
+     "text": "계약 후 창구"
+    },
+    {
+     "key": "index:1c125164e5",
+     "owner": "index",
+     "tag": "td",
+     "label": "표 내용",
+     "text": "금융사·보험사·장착업체별로 각각 연락해야 합니다."
+    },
+    {
+     "key": "index:d7587fdde6",
+     "owner": "index",
+     "tag": "td",
+     "label": "표 내용",
+     "text": "전담자 한 명이 계약 기간 내내 같은 번호로 받습니다."
+    },
+    {
+     "key": "index:5b4db159b7",
+     "owner": "index",
+     "tag": "th",
+     "label": "표 머리",
+     "text": "비용"
+    },
+    {
+     "key": "index:14d3042bfd",
+     "owner": "index",
+     "tag": "td",
+     "label": "표 내용",
+     "text": "컨설팅·관리 수수료를 부과하거나 계약 조건에 반영합니다."
+    },
+    {
+     "key": "index:534ccd2fbe",
+     "owner": "index",
+     "tag": "td",
+     "label": "표 내용",
+     "text": "관리 대행 비용이 없고, 외부 실비에 수수료를 얹지 않습니다."
+    },
+    {
+     "key": "index:d7d7d14ae7",
+     "owner": "index",
+     "tag": "p",
+     "label": "본문",
+     "text": "핵심 서비스"
+    },
+    {
+     "key": "index:2b0aa77de9",
+     "owner": "index",
+     "tag": "h2",
+     "label": "제목",
+     "text": "리스사가 모르는 화물차 특장·외주장착,<br>플릿케어는 잘 압니다."
+    },
+    {
+     "key": "index:c7291f7219",
+     "owner": "index",
+     "tag": "p",
+     "label": "본문",
+     "text": "윙바디, 탑차, 파워게이트, 리프트 같은 외주장착 작업. 일반 리스사 심사팀은 구조를 몰라 승인이 지체되는 경우가 많습니다."
+    },
+    {
+     "key": "index:4097c235df",
+     "owner": "index",
+     "tag": "p",
+     "label": "본문",
+     "text": "플릿케어는 리스사 출신 전문가가 금융사와 장착업체 사이의 기술적·행정적 간극을 직접 메워 빠른 승인을 이끌어냅니다."
+    },
+    {
+     "key": "index:7c1b793072",
+     "owner": "index",
+     "tag": "p",
+     "label": "본문",
+     "text": "승인만이 아닙니다. <strong>특장 비용을 리스료에 포함시키고, 만기에 원상복구 없이 반납할 수 있는 조건</strong>으로 계약합니다. 둘 다 계약할 때 정해지는 조건이라 처음부터 챙겨야 합니다."
+    },
+    {
+     "key": "index:58e937a461",
+     "owner": "index",
+     "tag": "h3",
+     "label": "소제목",
+     "text": "취급 사양"
+    },
+    {
+     "key": "index:e4275a84ff",
+     "owner": "index",
+     "tag": "li",
+     "label": "목록",
+     "text": "윙바디·탑차"
+    },
+    {
+     "key": "index:395e7ef6c3",
+     "owner": "index",
+     "tag": "li",
+     "label": "목록",
+     "text": "탑 사이즈 제작"
+    },
+    {
+     "key": "index:6dd36d14db",
+     "owner": "index",
+     "tag": "li",
+     "label": "목록",
+     "text": "내장탑·냉동탑"
+    },
+    {
+     "key": "index:447b598565",
+     "owner": "index",
+     "tag": "li",
+     "label": "목록",
+     "text": "파워게이트 리프트"
+    },
+    {
+     "key": "index:498a695fb7",
+     "owner": "index",
+     "tag": "li",
+     "label": "목록",
+     "text": "크레인"
+    },
+    {
+     "key": "index:2f84d7407a",
+     "owner": "index",
+     "tag": "li",
+     "label": "목록",
+     "text": "차량 하부보강·차바닥"
+    },
+    {
+     "key": "index:f19649b75e",
+     "owner": "index",
+     "tag": "li",
+     "label": "목록",
+     "text": "도색·래핑"
+    },
+    {
+     "key": "index:d8e90c5ced",
+     "owner": "index",
+     "tag": "li",
+     "label": "목록",
+     "text": "구조변경 및 등록"
+    },
+    {
+     "key": "index:d7d7d14ae7-1",
+     "owner": "index",
+     "tag": "p",
+     "label": "본문",
+     "text": "핵심 서비스"
+    },
+    {
+     "key": "index:15b69972f0",
+     "owner": "index",
+     "tag": "h2",
+     "label": "제목",
+     "text": "보험 가입도, 만기 정산도 대신 받습니다."
+    },
+    {
+     "key": "index:9f7b709ee6",
+     "owner": "index",
+     "tag": "p",
+     "label": "본문",
+     "text": "운용리스는 렌트와 달리 법인이 직접 보험에 가입해야 합니다. 차량 수가 늘수록 갱신일이 제각각이 되고 누락 위험이 커집니다."
+    },
+    {
+     "key": "index:7f25d88506",
+     "owner": "index",
+     "tag": "p",
+     "label": "본문",
+     "text": "플릿케어는 보험의 시작과 끝을 전담합니다. 만기가 오면 반납과 인수 후 매각 중 어느 쪽이 유리한지 숫자로 정리해 드립니다."
+    },
+    {
+     "key": "index:6b49821d18",
+     "owner": "index",
+     "tag": "p",
+     "label": "본문",
+     "text": "새 차로 바꾸시는 경우에는 생산·출고 기간을 역산해 <strong>만기일에 맞춰 차량이 도착하도록</strong> 발주 시점을 잡아 드립니다. 차량 공백이 생기지 않게 미리 소통하는 것이 핵심입니다."
+    },
+    {
+     "key": "index:8286ee25a6",
+     "owner": "index",
+     "tag": "h3",
+     "label": "소제목",
+     "text": "만기 손익 리포트에 담기는 것"
+    },
+    {
+     "key": "index:97839de0b2",
+     "owner": "index",
+     "tag": "li",
+     "label": "목록",
+     "text": "계약상 잔존가치와 중고차 실거래 시세 비교"
+    },
+    {
+     "key": "index:ac0b2b9442",
+     "owner": "index",
+     "tag": "li",
+     "label": "목록",
+     "text": "반납 시 예상 정산 항목과 감가 비용"
+    },
+    {
+     "key": "index:6ed490aa76",
+     "owner": "index",
+     "tag": "li",
+     "label": "목록",
+     "text": "인수 후 매각 시 예상 차익"
+    },
+    {
+     "key": "index:22fd4374a5",
+     "owner": "index",
+     "tag": "li",
+     "label": "목록",
+     "text": "어느 쪽이 얼마나 유리한지 결론"
+    },
+    {
+     "key": "index:a84c3ae237",
+     "owner": "index",
+     "tag": "h2",
+     "label": "제목",
+     "text": "분기마다 현장을 찾아갑니다"
+    },
+    {
+     "key": "index:fcf2bec785",
+     "owner": "index",
+     "tag": "p",
+     "label": "본문",
+     "text": "차량을 쓰는 사람과 관리하는 사람이 다릅니다. 현장의 불편은 본사에 잘 닿지 않고, 닿아도 개별 민원으로 흩어집니다."
+    },
+    {
+     "key": "index:409cdb551d",
+     "owner": "index",
+     "tag": "p",
+     "label": "본문",
+     "text": "플릿케어는 3개월마다 사업장을 직접 방문해 차량과 사람을 확인하고, 그 내용을 분기 현장 리포트로 정리해 본사 총무·재무팀과 협의합니다. 도출된 개선점은 실행하고 다음 분기 방문에서 결과를 확인합니다."
+    },
+    {
+     "key": "index:7d7f6c84c4",
+     "owner": "index",
+     "tag": "p",
+     "label": "본문",
+     "text": "<strong>계약 후 현장에 오는 에이전트는 플릿케어뿐입니다.</strong>"
+    },
+    {
+     "key": "index:f01f6bcd24",
+     "owner": "index",
+     "tag": "h3",
+     "label": "소제목",
+     "text": "분기 현장 리포트에 담기는 것"
+    },
+    {
+     "key": "index:92248cd7f2",
+     "owner": "index",
+     "tag": "li",
+     "label": "목록",
+     "text": "차량별 상태와 주행거리"
+    },
+    {
+     "key": "index:ad5ea1a3b5",
+     "owner": "index",
+     "tag": "li",
+     "label": "목록",
+     "text": "사고·정비 이력"
+    },
+    {
+     "key": "index:a591bcb89d",
+     "owner": "index",
+     "tag": "li",
+     "label": "목록",
+     "text": "보험 갱신·만기 캘린더"
+    },
+    {
+     "key": "index:c19b2d4801",
+     "owner": "index",
+     "tag": "li",
+     "label": "목록",
+     "text": "현장 요청사항"
+    },
+    {
+     "key": "index:1676dae5eb",
+     "owner": "index",
+     "tag": "li",
+     "label": "목록",
+     "text": "개선 권고 및 전 분기 조치 결과"
+    },
+    {
+     "key": "index:8d7df878af",
+     "owner": "index",
+     "tag": "h2",
+     "label": "제목",
+     "text": "맡기시면 달라지는 것"
+    },
+    {
+     "key": "index:5b4db159b7-1",
+     "owner": "index",
+     "tag": "p",
+     "label": "본문",
+     "text": "비용"
+    },
+    {
+     "key": "index:6972ff6b39",
+     "owner": "index",
+     "tag": "li",
+     "label": "목록",
+     "text": "금융 조건 재설계로 계약 기간 전체 납입 총액을 줄입니다"
+    },
+    {
+     "key": "index:6414024fb0",
+     "owner": "index",
+     "tag": "li",
+     "label": "목록",
+     "text": "만기 반납·매각 판단으로 대당 추가 수익이 생깁니다"
+    },
+    {
+     "key": "index:6c35133c47",
+     "owner": "index",
+     "tag": "p",
+     "label": "본문",
+     "text": "시간"
+    },
+    {
+     "key": "index:bd56948bb8",
+     "owner": "index",
+     "tag": "li",
+     "label": "목록",
+     "text": "현장 방문 결과지를 총무팀에 전달해 현장 파악 시간을 줄입니다"
+    },
+    {
+     "key": "index:44e79933b3",
+     "owner": "index",
+     "tag": "li",
+     "label": "목록",
+     "text": "정비·이슈가 생기면 플릿케어 담당자에게 알리는 것으로 끝납니다"
+    },
+    {
+     "key": "index:720097a06c",
+     "owner": "index",
+     "tag": "p",
+     "label": "본문",
+     "text": "리스크"
+    },
+    {
+     "key": "index:c5cc0a0405",
+     "owner": "index",
+     "tag": "li",
+     "label": "목록",
+     "text": "운용리스 보험을 캐피탈사와 플릿케어가 이중으로 확인합니다"
+    },
+    {
+     "key": "index:d2b9c207a6",
+     "owner": "index",
+     "tag": "li",
+     "label": "목록",
+     "text": "만기일 역산 발주로 차량 공백 없이 교체합니다"
+    },
+    {
+     "key": "index:801af69fbf",
+     "owner": "index",
+     "tag": "p",
+     "label": "본문",
+     "text": "가시성"
+    },
+    {
+     "key": "index:6e6ecc6b71",
+     "owner": "index",
+     "tag": "li",
+     "label": "목록",
+     "text": "분기 현장 리포트를 정기적으로 보고받습니다"
+    },
+    {
+     "key": "index:6d08a24e54",
+     "owner": "index",
+     "tag": "li",
+     "label": "목록",
+     "text": "연도별 보험 사고 내역을 정리해 드립니다 (사고일자, 대물·자차 지급액)"
+    },
+    {
+     "key": "index:5fa1d2a768",
+     "owner": "index",
+     "tag": "h2",
+     "label": "제목",
+     "text": "이런 기업에서 찾으십니다"
+    },
+    {
+     "key": "index:8f79c9e236",
+     "owner": "index",
+     "tag": "h3",
+     "label": "소제목",
+     "text": "법인차량 도입·교체를 검토 중인 재무·총무 담당자"
+    },
+    {
+     "key": "index:0dc3ad2f82",
+     "owner": "index",
+     "tag": "p",
+     "label": "본문",
+     "text": "어느 금융사가 유리한지, 지금 받은 견적이 좋은 조건인지 판단하기 어려운 경우입니다. 여러 금융사 조건을 동시에 받아 비교표로 정리해 드립니다."
+    },
+    {
+     "key": "index:dd3b188217",
+     "owner": "index",
+     "tag": "h3",
+     "label": "소제목",
+     "text": "특장·외주장착으로 출고가 지연되는 물류·제조 기업"
+    },
+    {
+     "key": "index:bab2e03254",
+     "owner": "index",
+     "tag": "p",
+     "label": "본문",
+     "text": "장착업체와 금융사 사이에서 서류와 사양 확인이 오가며 시간이 흘러가는 경우입니다. 그 사이를 저희가 직접 메웁니다."
+    },
+    {
+     "key": "index:178b523c14",
+     "owner": "index",
+     "tag": "h3",
+     "label": "소제목",
+     "text": "운용리스 보험 관리가 버거운 기업"
+    },
+    {
+     "key": "index:5f4c68805e",
+     "owner": "index",
+     "tag": "p",
+     "label": "본문",
+     "text": "차량마다 갱신일이 달라 매번 챙기기 어려운 경우입니다. 전체 갱신 일정을 대장으로 관리하고 시점마다 먼저 알려드립니다."
+    }
+   ]
+  },
+  {
+   "id": "about",
+   "title": "회사소개",
+   "file": "about.html",
+   "items": [
+    {
+     "key": "about:6274270342",
+     "owner": "about",
+     "tag": "h1",
+     "label": "제목",
+     "text": "회사소개"
+    },
+    {
+     "key": "about:b76261c776",
+     "owner": "about",
+     "tag": "p",
+     "label": "본문",
+     "text": "공급자 중심의 리스·렌트 시장에서, 고객 중심의 플릿 에이전트로."
+    },
+    {
+     "key": "about:53a11a82a8",
+     "owner": "about",
+     "tag": "h2",
+     "label": "제목",
+     "text": "플릿케어가 서 있는 자리"
+    },
+    {
+     "key": "about:c5b5c3397f",
+     "owner": "about",
+     "tag": "p",
+     "label": "본문",
+     "text": "<strong>각자 자기 몫만 봅니다.</strong> 금융사는 자사 상품밖에 계약할 수 없고, 정비 업체는 입고된 차만 보고, 보험사는 증권을 발행할 뿐 계약이 잘 관리되는지까지는 보지 않습니다. 고객사의 차량 전체를 한 번에 보는 자리가 비어 있습니다."
+    },
+    {
+     "key": "about:0cc929d1f5",
+     "owner": "about",
+     "tag": "p",
+     "label": "본문",
+     "text": "플릿케어는 그 자리에 있는 <strong>고객 측 대리인</strong>입니다. 한 곳의 금융사, 한 곳의 보험사만 쓰지 않습니다. 여러 금융사를 비교 견적해 최적 조건을 찾고, 도입부터 특장·보험·만기까지 한 사람이 이어서 맡습니다. 이것이 저희가 말하는 <strong>법인 전용 플릿 에이전트</strong>입니다."
+    },
+    {
+     "key": "about:b0f95521b2",
+     "owner": "about",
+     "tag": "h3",
+     "label": "소제목",
+     "text": "한눈에"
+    },
+    {
+     "key": "about:ee1d926a64",
+     "owner": "about",
+     "tag": "dt",
+     "label": "항목명",
+     "text": "운영 법인"
+    },
+    {
+     "key": "about:3c1bfd30a8",
+     "owner": "about",
+     "tag": "dd",
+     "label": "항목 내용",
+     "text": "주식회사 제이디엔드"
+    },
+    {
+     "key": "about:120372c65f",
+     "owner": "about",
+     "tag": "dt",
+     "label": "항목명",
+     "text": "대표이사"
+    },
+    {
+     "key": "about:734f220740",
+     "owner": "about",
+     "tag": "dd",
+     "label": "항목 내용",
+     "text": "박동천"
+    },
+    {
+     "key": "about:590dc7381f",
+     "owner": "about",
+     "tag": "dt",
+     "label": "항목명",
+     "text": "서비스명"
+    },
+    {
+     "key": "about:006b723ae6",
+     "owner": "about",
+     "tag": "dd",
+     "label": "항목 내용",
+     "text": "플릿케어 (FleetCare)"
+    },
+    {
+     "key": "about:b7295ef56f",
+     "owner": "about",
+     "tag": "dt",
+     "label": "항목명",
+     "text": "사업 영역"
+    },
+    {
+     "key": "about:a0fc39d344",
+     "owner": "about",
+     "tag": "dd",
+     "label": "항목 내용",
+     "text": "법인 차량 리스·렌탈·할부 중개, 특장 승인 대행, 보험·만기 통합 관리"
+    },
+    {
+     "key": "about:6bf537cb7e",
+     "owner": "about",
+     "tag": "dt",
+     "label": "항목명",
+     "text": "대상"
+    },
+    {
+     "key": "about:4fd1848000",
+     "owner": "about",
+     "tag": "dd",
+     "label": "항목 내용",
+     "text": "법인 고객사"
+    },
+    {
+     "key": "about:c0e8e33a81",
+     "owner": "about",
+     "tag": "dt",
+     "label": "항목명",
+     "text": "관리 대행 비용"
+    },
+    {
+     "key": "about:d58fa73adc",
+     "owner": "about",
+     "tag": "dd",
+     "label": "항목 내용",
+     "text": "없음"
+    },
+    {
+     "key": "about:462975df23",
+     "owner": "about",
+     "tag": "h2",
+     "label": "제목",
+     "text": "세 가지 전문성"
+    },
+    {
+     "key": "about:e885ec1e9e",
+     "owner": "about",
+     "tag": "h3",
+     "label": "소제목",
+     "text": "리스사 출신 노하우"
+    },
+    {
+     "key": "about:4f5292713e",
+     "owner": "about",
+     "tag": "p",
+     "label": "본문",
+     "text": "금융사 심사가 어떤 기준으로 돌아가는지 안쪽에서 겪었습니다. 어떤 차량이 왜 거절되는지, 어떤 서류에서 막히는지 알고 준비합니다. 거절 이력을 쌓지 않는 편이 다음 심사에도 유리합니다."
+    },
+    {
+     "key": "about:06dc2c00bc",
+     "owner": "about",
+     "tag": "h3",
+     "label": "소제목",
+     "text": "보험대리점 연계 관리"
+    },
+    {
+     "key": "about:9711877ad2",
+     "owner": "about",
+     "tag": "p",
+     "label": "본문",
+     "text": "제휴 보험대리점과 연계해 비교 견적부터 가입, 갱신까지 함께 진행합니다. 보험 계약 자체는 대리점을 통해 체결되고, 플릿케어는 차량대장과 갱신 일정을 붙여 빠지는 것이 없도록 관리합니다. 담당자가 보험사마다 따로 연락할 일이 없습니다."
+    },
+    {
+     "key": "about:f99cf4c01a",
+     "owner": "about",
+     "tag": "h3",
+     "label": "소제목",
+     "text": "중고차 시세 기반 만기 분석"
+    },
+    {
+     "key": "about:ae447b51df",
+     "owner": "about",
+     "tag": "p",
+     "label": "본문",
+     "text": "만기가 오면 캐피탈사 안내만 보고 결정하게 됩니다. 저희는 실거래 시세를 붙여 반납과 인수 후 매각을 숫자로 비교해 드립니다."
+    },
+    {
+     "key": "about:e4e6f44354",
+     "owner": "about",
+     "tag": "h2",
+     "label": "제목",
+     "text": "고객 맞춤 프로세스"
+    },
+    {
+     "key": "about:d1be7243aa",
+     "owner": "about",
+     "tag": "p",
+     "label": "본문",
+     "text": "회사마다 차량 구성도 고민도 다릅니다. 정해진 상품을 권하는 대신, 지금 상태를 먼저 정리하는 것부터 시작합니다."
+    },
+    {
+     "key": "about:1c9f10fcbb",
+     "owner": "about",
+     "tag": "h3",
+     "label": "소제목",
+     "text": "현황 파악"
+    },
+    {
+     "key": "about:c92e8e5999",
+     "owner": "about",
+     "tag": "p",
+     "label": "본문",
+     "text": "운용 중인 차량, 계약 중인 금융사, 만기 분포, 보험 갱신일을 한 장부로 정리합니다. 아직 차량이 없으셔도 용도만 들으면 후보를 좁힐 수 있습니다."
+    },
+    {
+     "key": "about:de8649cae4",
+     "owner": "about",
+     "tag": "h3",
+     "label": "소제목",
+     "text": "조건 설계"
+    },
+    {
+     "key": "about:0b27b12654",
+     "owner": "about",
+     "tag": "p",
+     "label": "본문",
+     "text": "여러 금융사 조건을 동시에 받아 비교합니다. 기존에 받으신 견적서가 있으면 그것을 기준으로 더 나은 안을 다시 짭니다."
+    },
+    {
+     "key": "about:637bf127a7",
+     "owner": "about",
+     "tag": "p",
+     "label": "본문",
+     "text": "정비를 포함해서 갈지, 보험을 어떻게 가져갈지, 특장비를 리스료에 넣을지도 이때 정합니다. 계약 이후에는 바꾸기 어려운 조건들이라 처음에 맞춰 두는 편이 낫습니다."
+    },
+    {
+     "key": "about:f7ecdcde7b",
+     "owner": "about",
+     "tag": "h3",
+     "label": "소제목",
+     "text": "실행 대행"
+    },
+    {
+     "key": "about:2895df2722",
+     "owner": "about",
+     "tag": "p",
+     "label": "본문",
+     "text": "서류 준비, 심사 진행, 특장 발주와 구조변경, 등록까지 대신 진행합니다. 차량 생산·출고 기간을 감안해 일정을 잡고, 진행 상황을 그때그때 알려드립니다."
+    },
+    {
+     "key": "about:dec17f0c2a",
+     "owner": "about",
+     "tag": "h3",
+     "label": "소제목",
+     "text": "운영 케어"
+    },
+    {
+     "key": "about:a1032dbcd2",
+     "owner": "about",
+     "tag": "p",
+     "label": "본문",
+     "text": "보험 갱신, 과태료 확인, 만기 대응까지 계약 기간 내내 같은 번호로 연락하시면 됩니다."
+    },
+    {
+     "key": "about:5f8cd2ba6f",
+     "owner": "about",
+     "tag": "p",
+     "label": "본문",
+     "text": "분기마다 사업장을 방문해 현장 리포트를 만들고 총무·재무팀과 협의합니다. 가만히 계셔도 차량이 실제로 어떻게 쓰이고 있는지 정기적으로 보고받으실 수 있습니다."
+    },
+    {
+     "key": "about:6194ada16e",
+     "owner": "about",
+     "tag": "p",
+     "label": "본문",
+     "text": "여기까지가 플릿케어입니다"
+    },
+    {
+     "key": "about:7e84e95203",
+     "owner": "about",
+     "tag": "h2",
+     "label": "제목",
+     "text": "협력 네트워크"
+    },
+    {
+     "key": "about:91bbcbe8d5",
+     "owner": "about",
+     "tag": "p",
+     "label": "본문",
+     "text": "한 곳에 묶이지 않고 여러 금융사·업체와 거래합니다. 조건은 건별로 비교해 정리합니다."
+    },
+    {
+     "key": "about:f975f6d863",
+     "owner": "about",
+     "tag": "h3",
+     "label": "소제목",
+     "text": "금융사"
+    },
+    {
+     "key": "about:8ea39f2731",
+     "owner": "about",
+     "tag": "p",
+     "label": "본문",
+     "text": "국내 27개 렌트 및 리스사"
+    },
+    {
+     "key": "about:a1a15f9c81",
+     "owner": "about",
+     "tag": "p",
+     "label": "본문",
+     "text": "차량 조건과 회사 상황에 따라 유리한 곳이 매번 다릅니다. 한 곳에 묶여 있지 않아 건마다 새로 비교할 수 있습니다."
+    },
+    {
+     "key": "about:f475b4f99a",
+     "owner": "about",
+     "tag": "h3",
+     "label": "소제목",
+     "text": "특장·장착 업체"
+    },
+    {
+     "key": "about:cf7f07d442",
+     "owner": "about",
+     "tag": "p",
+     "label": "본문",
+     "text": "윙바디, 탑차, 파워게이트, 리프트 장착과 구조변경을 진행합니다. 사양에 맞는 제작사를 연결하고 출고 일정까지 맞춥니다."
+    },
+    {
+     "key": "about:878fb2ca05",
+     "owner": "about",
+     "tag": "h3",
+     "label": "소제목",
+     "text": "손해보험사"
+    },
+    {
+     "key": "about:3779a0b52e",
+     "owner": "about",
+     "tag": "p",
+     "label": "본문",
+     "text": "제휴 보험대리점을 통해 주요 손해보험사 요율을 비교하고 가입합니다. 차량별 갱신일은 저희가 대장으로 붙여 관리합니다."
+    },
+    {
+     "key": "about:c5b96ff3c2",
+     "owner": "about",
+     "tag": "h3",
+     "label": "소제목",
+     "text": "FMS·관제"
+    },
+    {
+     "key": "about:edd6e41529",
+     "owner": "about",
+     "tag": "p",
+     "label": "본문",
+     "text": "도입 검토 시 비교 대상이 되는 업체입니다. 업체마다 구성 항목이 달라 요건에 맞춰 제안합니다."
+    }
+   ]
+  },
+  {
+   "id": "service",
+   "title": "서비스 안내",
+   "file": "service.html",
+   "items": [
+    {
+     "key": "service:b5f8d86c03",
+     "owner": "service",
+     "tag": "h1",
+     "label": "제목",
+     "text": "서비스 안내"
+    },
+    {
+     "key": "service:b326f06add",
+     "owner": "service",
+     "tag": "p",
+     "label": "본문",
+     "text": "여러 캐피탈사 조건을 종합 비교해 법인 상황에 가장 맞는 금융 솔루션을 찾아 드립니다."
+    },
+    {
+     "key": "service:c8df5337ae",
+     "owner": "service",
+     "tag": "h2",
+     "label": "제목",
+     "text": "법인 승용·SUV 렌트·리스·할부"
+    },
+    {
+     "key": "service:c807de33ac",
+     "owner": "service",
+     "tag": "p",
+     "label": "본문",
+     "text": "같은 차종이라도 금융사마다 월 납입액, 잔가 설정, 중도 해지 조건이 다릅니다. 한 곳에 묶여 있지 않아 매번 새로 비교할 수 있습니다. 리스와 렌탈이 중심이지만, 할부가 맞는 경우라면 할부로 진행하도록 도와드립니다."
+    },
+    {
+     "key": "service:766b3b3dd5",
+     "owner": "service",
+     "tag": "h3",
+     "label": "소제목",
+     "text": "다중 금융사 동시 비교"
+    },
+    {
+     "key": "service:a47c04f002",
+     "owner": "service",
+     "tag": "p",
+     "label": "본문",
+     "text": "여러 금융사에 같은 조건으로 견적을 넣고 비교표로 정리합니다. 월 납입액만이 아니라 잔가, 중도 해지 위약, 정비 포함 여부까지 같이 봅니다."
+    },
+    {
+     "key": "service:84cf1c7db3",
+     "owner": "service",
+     "tag": "h3",
+     "label": "소제목",
+     "text": "리스·렌트·할부 방식 검토"
+    },
+    {
+     "key": "service:23127c0d5b",
+     "owner": "service",
+     "tag": "p",
+     "label": "본문",
+     "text": "회사의 재무 상황과 차량 용도에 따라 유리한 방식이 다릅니다. 리스·렌탈은 매달 내는 돈을 비용으로 처리하고, 할부는 출고 시점부터 차량이 법인 명의가 되어 자산으로 잡힙니다."
+    },
+    {
+     "key": "service:ad47140db0",
+     "owner": "service",
+     "tag": "p",
+     "label": "본문",
+     "text": "세 방식을 같은 차·같은 기간으로 계산해 비교표로 드립니다. 비용 처리와 보험 부담까지 함께 놓고 판단해 드립니다."
+    },
+    {
+     "key": "service:8601b3c069",
+     "owner": "service",
+     "tag": "h3",
+     "label": "소제목",
+     "text": "기존 견적 재설계"
+    },
+    {
+     "key": "service:9e92f50f42",
+     "owner": "service",
+     "tag": "p",
+     "label": "본문",
+     "text": "이미 받으신 견적서를 보내 주시면 그 조건을 기준으로 더 나은 안이 있는지 확인합니다. 같은 차, 같은 기간으로 비교해야 의미가 있습니다."
+    },
+    {
+     "key": "service:10446522bc",
+     "owner": "service",
+     "tag": "h3",
+     "label": "소제목",
+     "text": "심사 대행"
+    },
+    {
+     "key": "service:e4161bf677",
+     "owner": "service",
+     "tag": "p",
+     "label": "본문",
+     "text": "서류 준비부터 심사 진행까지 대신합니다. 심사에서 막히면 다른 금융사로 돌려 다시 진행합니다."
+    },
+    {
+     "key": "service:67889b2fe1",
+     "owner": "service",
+     "tag": "h3",
+     "label": "소제목",
+     "text": "정비 포함 상품 연결"
+    },
+    {
+     "key": "service:91b3cac9cb",
+     "owner": "service",
+     "tag": "p",
+     "label": "본문",
+     "text": "차량이 늘면 정비를 누가 챙기느냐가 문제가 됩니다. 렌트·리스 상품 중에는 정기 점검과 소모품 교체가 포함된 구성이 있습니다. 정비까지 맡기고 싶으시면 포함형 상품으로 계약하도록 도와드립니다."
+    },
+    {
+     "key": "service:52c8e7485d",
+     "owner": "service",
+     "tag": "p",
+     "label": "본문",
+     "text": "회사 상황에 따라 포함형이 유리할 수도, 그때그때 실비로 처리하는 편이 나을 수도 있습니다. 차량 용도와 주행거리를 보고 계약 시점에 같이 판단합니다."
+    },
+    {
+     "key": "service:f5a597eb70",
+     "owner": "service",
+     "tag": "p",
+     "label": "본문",
+     "text": "계약 이후 개별 정비 접수를 저희가 대신 받지는 않습니다. 포함형으로 계약하시면 해당 상품의 정비 네트워크에서 처리됩니다."
+    },
+    {
+     "key": "service:4b5e82bc88",
+     "owner": "service",
+     "tag": "h3",
+     "label": "소제목",
+     "text": "만기일 맞춤 출고 일정"
+    },
+    {
+     "key": "service:7398152f9a",
+     "owner": "service",
+     "tag": "p",
+     "label": "본문",
+     "text": "차량은 생산과 출고에 기간이 걸립니다. 기존 차량의 만기일에서 역산해 발주 시점을 잡고, 고객사와 소통하며 만기일에 맞춰 새 차를 대드립니다. 차량 공백이 생기지 않게 하는 것이 목적입니다."
+    },
+    {
+     "key": "service:7872c5b713",
+     "owner": "service",
+     "tag": "h2",
+     "label": "제목",
+     "text": "법인차량 현장관리 서비스"
+    },
+    {
+     "key": "service:e1908cb58a",
+     "owner": "service",
+     "tag": "p",
+     "label": "본문",
+     "text": "차량 문제는 본사 사무실에서 보이지 않습니다. 플릿케어는 3개월마다 현장을 직접 방문해 차량과 사람을 확인하고, 그 내용을 정리해 본사 총무팀과 협의합니다. <strong>계약 후 현장에 오는 에이전트는 플릿케어뿐입니다.</strong>"
+    },
+    {
+     "key": "service:680d6a5214",
+     "owner": "service",
+     "tag": "h3",
+     "label": "소제목",
+     "text": "현장 방문"
+    },
+    {
+     "key": "service:4628a1f5fe",
+     "owner": "service",
+     "tag": "p",
+     "label": "본문",
+     "text": "분기 1회 사업장을 방문합니다. 차량 상태, 운행 실태, 현장 담당자의 불편사항을 확인합니다. 전화나 설문으로는 나오지 않는 이야기가 현장에서 나옵니다."
+    },
+    {
+     "key": "service:e62b7ec4f9",
+     "owner": "service",
+     "tag": "h3",
+     "label": "소제목",
+     "text": "현장 리포트 작성"
+    },
+    {
+     "key": "service:3aba0ce90c",
+     "owner": "service",
+     "tag": "p",
+     "label": "본문",
+     "text": "문제점과 개선점, 차량별 상태를 정리한 분기 현장 리포트를 만듭니다. 개별 민원을 그대로 옮기는 것이 아니라 반복되는 문제로 묶습니다."
+    },
+    {
+     "key": "service:4d26e35f2f",
+     "owner": "service",
+     "tag": "h3",
+     "label": "소제목",
+     "text": "본사 협의"
+    },
+    {
+     "key": "service:b78f9f27b0",
+     "owner": "service",
+     "tag": "p",
+     "label": "본문",
+     "text": "총무·재무팀에 자료를 제출하고 예산, 교체, 운영 정책을 협의합니다."
+    },
+    {
+     "key": "service:2c872d3b18",
+     "owner": "service",
+     "tag": "h3",
+     "label": "소제목",
+     "text": "개선 실행·관리"
+    },
+    {
+     "key": "service:31c04f8bd2",
+     "owner": "service",
+     "tag": "p",
+     "label": "본문",
+     "text": "도출된 개선점을 실행하고, 다음 분기 방문에서 결과를 추적합니다."
+    },
+    {
+     "key": "service:5719339b56",
+     "owner": "service",
+     "tag": "p",
+     "label": "본문",
+     "text": "3개월 주기로 반복 · 개선 결과는 다음 방문에서 확인"
+    },
+    {
+     "key": "service:f01f6bcd24",
+     "owner": "service",
+     "tag": "h3",
+     "label": "소제목",
+     "text": "분기 현장 리포트에 담기는 것"
+    },
+    {
+     "key": "service:92248cd7f2",
+     "owner": "service",
+     "tag": "li",
+     "label": "목록",
+     "text": "차량별 상태와 주행거리"
+    },
+    {
+     "key": "service:ad5ea1a3b5",
+     "owner": "service",
+     "tag": "li",
+     "label": "목록",
+     "text": "사고·정비 이력"
+    },
+    {
+     "key": "service:a591bcb89d",
+     "owner": "service",
+     "tag": "li",
+     "label": "목록",
+     "text": "보험 갱신·만기 캘린더"
+    },
+    {
+     "key": "service:c19b2d4801",
+     "owner": "service",
+     "tag": "li",
+     "label": "목록",
+     "text": "현장 요청사항"
+    },
+    {
+     "key": "service:1676dae5eb",
+     "owner": "service",
+     "tag": "li",
+     "label": "목록",
+     "text": "개선 권고 및 전 분기 조치 결과"
+    },
+    {
+     "key": "service:a5f6c129ee",
+     "owner": "service",
+     "tag": "h3",
+     "label": "소제목",
+     "text": "현장 만족도가 올라갑니다"
+    },
+    {
+     "key": "service:482db5a237",
+     "owner": "service",
+     "tag": "p",
+     "label": "본문",
+     "text": "말한 것이 실제로 바뀌면 차량에 대한 불만이 줄어듭니다. 현장에서 가장 큰 불만은 불편 그 자체보다 말해도 안 바뀐다는 데서 옵니다."
+    },
+    {
+     "key": "service:358786b734",
+     "owner": "service",
+     "tag": "h3",
+     "label": "소제목",
+     "text": "차량 품질이 유지됩니다"
+    },
+    {
+     "key": "service:808b494219",
+     "owner": "service",
+     "tag": "p",
+     "label": "본문",
+     "text": "작은 이상을 일찍 발견해 큰 수리로 번지기 전에 잡습니다. 현장은 웬만하면 참고 쓰다가 멈춘 뒤에야 알립니다."
+    },
+    {
+     "key": "service:1b2ddce977",
+     "owner": "service",
+     "tag": "h3",
+     "label": "소제목",
+     "text": "다음 계약이 정확해집니다"
+    },
+    {
+     "key": "service:277159febb",
+     "owner": "service",
+     "tag": "p",
+     "label": "본문",
+     "text": "현장에서 나온 이야기가 차종과 사양을 고르는 근거가 됩니다. 책상에서 정한 사양과 실제로 필요한 사양은 자주 다릅니다."
+    },
+    {
+     "key": "service:ad80b5b9a7",
+     "owner": "service",
+     "tag": "p",
+     "label": "본문",
+     "text": "방문 주기는 분기별이 기본입니다. 차량 대수와 사업장 위치에 따라 조정할 수 있습니다. 이 서비스도 별도 비용을 받지 않습니다."
+    },
+    {
+     "key": "service:cd67d6c09a",
+     "owner": "service",
+     "tag": "h2",
+     "label": "제목",
+     "text": "FMS 업체 비교·제안"
+    },
+    {
+     "key": "service:5b49751910",
+     "owner": "service",
+     "tag": "p",
+     "label": "본문",
+     "text": "차량이 늘면 누가 어디를 얼마나 운행했는지가 보이지 않습니다. 운행기록부 작성, 유류비 정산, 사적 사용 관리가 모두 여기서 막힙니다."
+    },
+    {
+     "key": "service:c4fc86b31e",
+     "owner": "service",
+     "tag": "p",
+     "label": "본문",
+     "text": "플릿케어는 FMS(차량 운행 관리 시스템) 업체를 비교해 회사 상황에 맞는 곳을 제안해 드립니다. <strong>업체마다 서비스 구성 항목이 조금씩 다릅니다.</strong> 어떤 곳은 운행기록에 강하고 어떤 곳은 관제나 사고 감지에 강합니다. 필요한 기능이 무엇인지부터 정리한 뒤에 비교해야 맞는 곳을 고를 수 있습니다."
+    },
+    {
+     "key": "service:1addb12fcc",
+     "owner": "service",
+     "tag": "p",
+     "label": "본문",
+     "text": "시스템을 저희가 직접 공급하지는 않습니다. 업체 비교와 제안까지가 저희 역할입니다."
+    },
+    {
+     "key": "service:ee332d2883",
+     "owner": "service",
+     "tag": "h3",
+     "label": "소제목",
+     "text": "이럴 때 검토하시면 됩니다"
+    },
+    {
+     "key": "service:62955635ed",
+     "owner": "service",
+     "tag": "li",
+     "label": "목록",
+     "text": "운행기록부를 매번 손으로 받고 계신 경우"
+    },
+    {
+     "key": "service:912b84a041",
+     "owner": "service",
+     "tag": "li",
+     "label": "목록",
+     "text": "차량 사적 사용 관리가 필요한 경우"
+    },
+    {
+     "key": "service:aed1143a6a",
+     "owner": "service",
+     "tag": "li",
+     "label": "목록",
+     "text": "화물 차량의 운행 경로와 가동률을 보셔야 하는 경우"
+    },
+    {
+     "key": "service:ce7fcb441c",
+     "owner": "service",
+     "tag": "li",
+     "label": "목록",
+     "text": "차량이 늘어 유류비 정산이 복잡해진 경우"
+    },
+    {
+     "key": "service:10338c691d",
+     "owner": "service",
+     "tag": "h2",
+     "label": "제목",
+     "text": "법인 비용절감 컨설팅"
+    },
+    {
+     "key": "service:2dc7527e08",
+     "owner": "service",
+     "tag": "p",
+     "label": "본문",
+     "text": "차량비는 한 번 정해지면 계약 기간 내내 나갑니다. 들이는 시점에 한 번, 만기 시점에 한 번 점검하면 차이가 큽니다."
+    },
+    {
+     "key": "service:3f077d537b",
+     "owner": "service",
+     "tag": "h3",
+     "label": "소제목",
+     "text": "도입 시점"
+    },
+    {
+     "key": "service:952da6a020",
+     "owner": "service",
+     "tag": "p",
+     "label": "본문",
+     "text": "차종, 기간, 주행거리 설정에 따라 총 비용이 달라집니다. 실제 운행 패턴에 맞춰 과한 조건을 덜어냅니다."
+    },
+    {
+     "key": "service:7848e83c5d",
+     "owner": "service",
+     "tag": "h3",
+     "label": "소제목",
+     "text": "운영 중"
+    },
+    {
+     "key": "service:4a16f62916",
+     "owner": "service",
+     "tag": "p",
+     "label": "본문",
+     "text": "보험 갱신 때마다 요율을 다시 비교합니다. 정비가 잦은 차량은 다음 계약에서 정비 포함형으로 돌리는 편이 나은지 같이 따져 봅니다."
+    },
+    {
+     "key": "service:24025ea515",
+     "owner": "service",
+     "tag": "h3",
+     "label": "소제목",
+     "text": "만기 시점"
+    },
+    {
+     "key": "service:f568cb9d10",
+     "owner": "service",
+     "tag": "p",
+     "label": "본문",
+     "text": "반납과 인수 후 매각을 숫자로 비교합니다. 잘못 판단하면 차량 한 대에서 수백만 원이 갈립니다."
+    },
+    {
+     "key": "service:20560fd198",
+     "owner": "service",
+     "tag": "p",
+     "label": "본문",
+     "text": "관리 대행 비용은 받지 않습니다. 정비 수리비·보험료·특장 제작비처럼 실제로 외부에 지급되는 금액만 고객사 부담이며, 플릿케어가 중간에서 수수료를 얹지 않습니다."
+    }
+   ]
+  },
+  {
+   "id": "truck",
+   "title": "화물·특장 솔루션",
+   "file": "truck.html",
+   "items": [
+    {
+     "key": "truck:d7d7d14ae7",
+     "owner": "truck",
+     "tag": "p",
+     "label": "본문",
+     "text": "핵심 서비스"
+    },
+    {
+     "key": "truck:31d674a96e",
+     "owner": "truck",
+     "tag": "h1",
+     "label": "제목",
+     "text": "화물·특장 솔루션"
+    },
+    {
+     "key": "truck:af4b36c55a",
+     "owner": "truck",
+     "tag": "p",
+     "label": "본문",
+     "text": "리스사가 모르는 화물차 특장·외주장착, 플릿케어는 잘 압니다."
+    },
+    {
+     "key": "truck:3560f784a0",
+     "owner": "truck",
+     "tag": "h2",
+     "label": "제목",
+     "text": "왜 특장 건은 승인이 늦어지는가"
+    },
+    {
+     "key": "truck:0a069c5bd1",
+     "owner": "truck",
+     "tag": "p",
+     "label": "본문",
+     "text": "윙바디, 탑차, 파워게이트, 리프트 같은 외주장착 작업. 일반 리스사 심사팀은 구조를 몰라 금융 승인이 지체되거나 거절되기 일쑤입니다."
+    },
+    {
+     "key": "truck:b4593d0632",
+     "owner": "truck",
+     "tag": "p",
+     "label": "본문",
+     "text": "특장이 붙으면 차량 가액이 올라가는데, 심사팀 입장에서는 그 장착물의 잔존가치를 어떻게 잡아야 할지 판단이 서지 않습니다. 장착업체는 금융 서류를 모르고, 금융사는 특장 구조를 모릅니다. 그 사이에서 시간이 흘러갑니다."
+    },
+    {
+     "key": "truck:485cf05f46",
+     "owner": "truck",
+     "tag": "p",
+     "label": "본문",
+     "text": "플릿케어는 리스사 출신 전문가가 양쪽의 기술적·행정적 간극을 직접 메워 빠른 승인을 이끌어냅니다."
+    },
+    {
+     "key": "truck:4f0c5d54de",
+     "owner": "truck",
+     "tag": "h3",
+     "label": "소제목",
+     "text": "이런 경우 연락 주세요"
+    },
+    {
+     "key": "truck:9f79a8dee3",
+     "owner": "truck",
+     "tag": "li",
+     "label": "목록",
+     "text": "특장비는 리스에 안 들어간다며 따로 부담하라는 안내를 받은 경우"
+    },
+    {
+     "key": "truck:c810efc8b5",
+     "owner": "truck",
+     "tag": "li",
+     "label": "목록",
+     "text": "만기 반납 때 원상복구 조건이 붙어 있는 경우"
+    },
+    {
+     "key": "truck:5c07eea082",
+     "owner": "truck",
+     "tag": "li",
+     "label": "목록",
+     "text": "특장 때문에 캐피탈사에서 거절당한 건이 있는 경우"
+    },
+    {
+     "key": "truck:ad341fdd25",
+     "owner": "truck",
+     "tag": "li",
+     "label": "목록",
+     "text": "장착 사양을 어떻게 잡아야 할지 모르겠는 경우"
+    },
+    {
+     "key": "truck:d15c17e496",
+     "owner": "truck",
+     "tag": "li",
+     "label": "목록",
+     "text": "출고 일정이 급한데 승인이 늦어지는 경우"
+    },
+    {
+     "key": "truck:a061272bbd",
+     "owner": "truck",
+     "tag": "li",
+     "label": "목록",
+     "text": "구조변경과 등록 절차가 처음인 경우"
+    },
+    {
+     "key": "truck:7c1fbda4ae",
+     "owner": "truck",
+     "tag": "p",
+     "label": "본문",
+     "text": "한 곳에서 막혔다고 끝이 아닙니다. 진행 경험이 있는 금융사는 다릅니다."
+    },
+    {
+     "key": "truck:61959959ed",
+     "owner": "truck",
+     "tag": "h2",
+     "label": "제목",
+     "text": "특장 비용과 반납 조건, 여기서 갈립니다"
+    },
+    {
+     "key": "truck:2078be128d",
+     "owner": "truck",
+     "tag": "p",
+     "label": "본문",
+     "text": "특장 차량은 승인만 받으면 끝이 아닙니다. 특장비를 어떻게 처리하느냐, 만기에 어떤 상태로 반납하느냐에서 실제로 나가는 돈이 크게 달라집니다. 그런데 이 두 가지는 대부분 고객사에 불리하게 잡혀 있습니다."
+    },
+    {
+     "key": "truck:ee3f6c8d86",
+     "owner": "truck",
+     "tag": "h3",
+     "label": "소제목",
+     "text": "특장 비용을 리스료에 포함시킵니다"
+    },
+    {
+     "key": "truck:544871fd7e",
+     "owner": "truck",
+     "tag": "p",
+     "label": "본문",
+     "text": "대부분의 리스사는 특장에 들어간 비용을 리스료에 넣어주지 않습니다. 차량값만 리스로 잡고 특장비는 따로 현금으로 부담하라는 식입니다. 윙바디나 냉동탑처럼 특장비가 큰 차량은 초기 자금 부담이 그대로 회사에 남습니다."
+    },
+    {
+     "key": "truck:4fce1cb8c5",
+     "owner": "truck",
+     "tag": "p",
+     "label": "본문",
+     "text": "플릿케어는 금융사 담당자와 직접 협의해 <strong>특장 비용까지 리스료에 포함시킵니다.</strong> 목돈이 한 번에 나가지 않고 월 비용으로 평탄하게 처리됩니다."
+    },
+    {
+     "key": "truck:107fb99f8b",
+     "owner": "truck",
+     "tag": "h3",
+     "label": "소제목",
+     "text": "원상복구 없이 반납되는 조건을 찾습니다"
+    },
+    {
+     "key": "truck:7d018249ec",
+     "owner": "truck",
+     "tag": "p",
+     "label": "본문",
+     "text": "특장 차량은 만기에 원상복구를 요구하는 금융사가 많습니다. 붙여둔 윙바디나 리프트를 떼어내고 원래 상태로 되돌려 반납하라는 조건입니다. 탈거 비용이 또 들고, 떼어낸 특장물은 쓸 데가 없습니다."
+    },
+    {
+     "key": "truck:34d9150a45",
+     "owner": "truck",
+     "tag": "p",
+     "label": "본문",
+     "text": "플릿케어는 계약 전에 반납 조건을 확인하고, <strong>원상복구 요구 없이 반납할 수 있는 금융사로 진행합니다.</strong>"
+    },
+    {
+     "key": "truck:0c3d59bc83",
+     "owner": "truck",
+     "tag": "p",
+     "label": "본문",
+     "text": "두 가지 모두 <strong>계약할 때 정해지는 조건</strong>입니다. 출고하고 나서는 바꾸기 어렵습니다. 특장 차량을 검토 중이시라면 계약 전에 확인하셔야 합니다."
+    },
+    {
+     "key": "truck:58e937a461",
+     "owner": "truck",
+     "tag": "h2",
+     "label": "제목",
+     "text": "취급 사양"
+    },
+    {
+     "key": "truck:b67b258923",
+     "owner": "truck",
+     "tag": "p",
+     "label": "본문",
+     "text": "아래 사양 외에도 진행 가능한 건이 많습니다. 사양서를 보내 주시면 확인해 드립니다."
+    },
+    {
+     "key": "truck:549dff4ca6",
+     "owner": "truck",
+     "tag": "h3",
+     "label": "소제목",
+     "text": "적재함"
+    },
+    {
+     "key": "truck:e4275a84ff",
+     "owner": "truck",
+     "tag": "li",
+     "label": "목록",
+     "text": "윙바디·탑차"
+    },
+    {
+     "key": "truck:395e7ef6c3",
+     "owner": "truck",
+     "tag": "li",
+     "label": "목록",
+     "text": "탑 사이즈 제작"
+    },
+    {
+     "key": "truck:6dd36d14db",
+     "owner": "truck",
+     "tag": "li",
+     "label": "목록",
+     "text": "내장탑·냉동탑"
+    },
+    {
+     "key": "truck:f67e27616a",
+     "owner": "truck",
+     "tag": "li",
+     "label": "목록",
+     "text": "카고·일반 화물"
+    },
+    {
+     "key": "truck:f712d962a4",
+     "owner": "truck",
+     "tag": "h3",
+     "label": "소제목",
+     "text": "상하차 장비"
+    },
+    {
+     "key": "truck:4e16d208d4",
+     "owner": "truck",
+     "tag": "li",
+     "label": "목록",
+     "text": "파워게이트"
+    },
+    {
+     "key": "truck:3ac6ec8cf2",
+     "owner": "truck",
+     "tag": "li",
+     "label": "목록",
+     "text": "리프트"
+    },
+    {
+     "key": "truck:498a695fb7",
+     "owner": "truck",
+     "tag": "li",
+     "label": "목록",
+     "text": "크레인"
+    },
+    {
+     "key": "truck:7fcc35d78b",
+     "owner": "truck",
+     "tag": "li",
+     "label": "목록",
+     "text": "기타 외주장착 품목"
+    },
+    {
+     "key": "truck:890f771bc6",
+     "owner": "truck",
+     "tag": "h3",
+     "label": "소제목",
+     "text": "차체·외장"
+    },
+    {
+     "key": "truck:35e63e10f7",
+     "owner": "truck",
+     "tag": "li",
+     "label": "목록",
+     "text": "차량 하부보강"
+    },
+    {
+     "key": "truck:6b0f573d11",
+     "owner": "truck",
+     "tag": "li",
+     "label": "목록",
+     "text": "차바닥"
+    },
+    {
+     "key": "truck:a3cdce5d19",
+     "owner": "truck",
+     "tag": "li",
+     "label": "목록",
+     "text": "도색"
+    },
+    {
+     "key": "truck:356605f3ef",
+     "owner": "truck",
+     "tag": "li",
+     "label": "목록",
+     "text": "래핑"
+    },
+    {
+     "key": "truck:b0128d6057",
+     "owner": "truck",
+     "tag": "h3",
+     "label": "소제목",
+     "text": "행정"
+    },
+    {
+     "key": "truck:d8e90c5ced",
+     "owner": "truck",
+     "tag": "li",
+     "label": "목록",
+     "text": "구조변경 및 등록"
+    },
+    {
+     "key": "truck:e306ec5dd7",
+     "owner": "truck",
+     "tag": "li",
+     "label": "목록",
+     "text": "상용차 2.5톤 이상 협의"
+    },
+    {
+     "key": "truck:a1281658fe",
+     "owner": "truck",
+     "tag": "li",
+     "label": "목록",
+     "text": "특장 제작사 섭외"
+    },
+    {
+     "key": "truck:447036c77f",
+     "owner": "truck",
+     "tag": "li",
+     "label": "목록",
+     "text": "사양 결정 자문"
+    },
+    {
+     "key": "truck:f62f909840",
+     "owner": "truck",
+     "tag": "h2",
+     "label": "제목",
+     "text": "원스톱 승인 프로세스"
+    },
+    {
+     "key": "truck:6aec9e4e6d",
+     "owner": "truck",
+     "tag": "p",
+     "label": "본문",
+     "text": "장착업체와 금융사 사이에서 시간이 흘러가는 구간을 저희가 맡습니다."
+    },
+    {
+     "key": "truck:f27d79c627",
+     "owner": "truck",
+     "tag": "h3",
+     "label": "소제목",
+     "text": "장착업체 사양 확인"
+    },
+    {
+     "key": "truck:281968b4a4",
+     "owner": "truck",
+     "tag": "p",
+     "label": "본문",
+     "text": "어떤 작업에 쓸 차인지 듣고 필요한 장착물을 정리합니다. 이미 받으신 사양서나 견적서가 있으면 그것부터 봅니다."
+    },
+    {
+     "key": "truck:bf30b50dae",
+     "owner": "truck",
+     "tag": "h3",
+     "label": "소제목",
+     "text": "금융사 심사 소통"
+    },
+    {
+     "key": "truck:febfb63467",
+     "owner": "truck",
+     "tag": "p",
+     "label": "본문",
+     "text": "특장 진행 경험이 있는 금융사에 사양과 가액 구성을 미리 설명합니다. 외주장착 비용 포함과 원상복구 제외 조건도 이 단계에서 협의합니다."
+    },
+    {
+     "key": "truck:3870c1cb4d",
+     "owner": "truck",
+     "tag": "h3",
+     "label": "소제목",
+     "text": "특장 발주·구조변경"
+    },
+    {
+     "key": "truck:42ae8fa1d7",
+     "owner": "truck",
+     "tag": "p",
+     "label": "본문",
+     "text": "사양에 맞는 제작사를 연결하고 일정을 잡습니다. 차량 출고와 장착 일정이 맞물리도록 조정하고 구조변경을 진행합니다."
+    },
+    {
+     "key": "truck:ec7d8fd343",
+     "owner": "truck",
+     "tag": "h3",
+     "label": "소제목",
+     "text": "등록·출고 일정 관리"
+    },
+    {
+     "key": "truck:e5bd6be242",
+     "owner": "truck",
+     "tag": "p",
+     "label": "본문",
+     "text": "장착 완료 후 등록까지 확인하고 차량을 인도합니다. 상용차 2.5톤 이상은 별도 협의로 진행합니다."
+    },
+    {
+     "key": "truck:b28dba6b2a",
+     "owner": "truck",
+     "tag": "p",
+     "label": "본문",
+     "text": "출고 후 운영 케어로 이어집니다"
+    }
+   ]
+  },
+  {
+   "id": "care",
+   "title": "보험·만기 케어",
+   "file": "care.html",
+   "items": [
+    {
+     "key": "care:d7d7d14ae7",
+     "owner": "care",
+     "tag": "p",
+     "label": "본문",
+     "text": "핵심 서비스"
+    },
+    {
+     "key": "care:c0f3e52c4d",
+     "owner": "care",
+     "tag": "h1",
+     "label": "제목",
+     "text": "보험·만기 케어"
+    },
+    {
+     "key": "care:573f464033",
+     "owner": "care",
+     "tag": "p",
+     "label": "본문",
+     "text": "운용리스 차량의 복잡한 보험 관리, 플릿케어가 알아서 처리해 드립니다."
+    },
+    {
+     "key": "care:21de54d719",
+     "owner": "care",
+     "tag": "h2",
+     "label": "제목",
+     "text": "운용리스 보험 통합 관리"
+    },
+    {
+     "key": "care:c7401ae147",
+     "owner": "care",
+     "tag": "p",
+     "label": "본문",
+     "text": "운용리스는 렌트와 달리 법인이 직접 보험에 가입해야 합니다. 차량 수가 늘어날수록 갱신일이 제각각이 되고, 개별 가입의 번거로움과 누락 위험이 커집니다."
+    },
+    {
+     "key": "care:64f8f85a4b",
+     "owner": "care",
+     "tag": "p",
+     "label": "본문",
+     "text": "플릿케어는 제휴 보험대리점과 연계해 법인차량 보험의 시작과 끝을 함께 맡습니다. 보험 계약은 대리점을 통해 체결되고, 차량별 갱신 일정은 저희가 붙어서 관리합니다."
+    },
+    {
+     "key": "care:4c2254800d",
+     "owner": "care",
+     "tag": "h3",
+     "label": "소제목",
+     "text": "최저 요율 보험사 선정"
+    },
+    {
+     "key": "care:1ab4312b22",
+     "owner": "care",
+     "tag": "p",
+     "label": "본문",
+     "text": "주요 손해보험사를 비교해 가장 나은 조건의 보험사를 골라 가입합니다. 차량마다 따로 알아보실 필요가 없습니다."
+    },
+    {
+     "key": "care:586a917cce",
+     "owner": "care",
+     "tag": "h3",
+     "label": "소제목",
+     "text": "자동 갱신 및 행정 대행"
+    },
+    {
+     "key": "care:de098fbf15",
+     "owner": "care",
+     "tag": "p",
+     "label": "본문",
+     "text": "갱신 시점이 오기 전에 미리 알려드리고 서류 작업을 무상으로 대행합니다. 갱신 누락으로 무보험 기간이 생기는 일을 막습니다."
+    },
+    {
+     "key": "care:7fa5d0ca0f",
+     "owner": "care",
+     "tag": "h3",
+     "label": "소제목",
+     "text": "조건 변경 요청 창구"
+    },
+    {
+     "key": "care:a8729b60ad",
+     "owner": "care",
+     "tag": "p",
+     "label": "본문",
+     "text": "연령 변경, 대물 한도, 자차 조건처럼 계약 중에 바꿔야 할 일이 생기면 플릿케어로 요청하시면 됩니다. 보험사마다 따로 연락하실 필요가 없습니다."
+    },
+    {
+     "key": "care:b8d0c90599",
+     "owner": "care",
+     "tag": "h3",
+     "label": "소제목",
+     "text": "증권·갱신일 대장 관리"
+    },
+    {
+     "key": "care:12eecfb0b9",
+     "owner": "care",
+     "tag": "p",
+     "label": "본문",
+     "text": "차량별로 어느 보험사에 어떤 조건으로 가입돼 있는지 대장에 정리합니다. 차량이 늘어도 갱신일이 한눈에 보이고, 담당자가 바뀌어도 이력이 남습니다."
+    },
+    {
+     "key": "care:595315a6a3",
+     "owner": "care",
+     "tag": "p",
+     "label": "본문",
+     "text": "사고 접수와 보상 협의는 가입하신 보험사와 직접 진행하셔야 합니다. 저희가 대신 처리하지 않습니다."
+    },
+    {
+     "key": "care:860f2bc188",
+     "owner": "care",
+     "tag": "h2",
+     "label": "제목",
+     "text": "만기 손익 분석 리포트"
+    },
+    {
+     "key": "care:7d32a78234",
+     "owner": "care",
+     "tag": "p",
+     "label": "본문",
+     "text": "만기가 오면 캐피탈사에서 반납할지 인수할지 통보가 옵니다. 그런데 어느 쪽이 회사에 유리한지는 알려주지 않습니다. 차량 한 대에서 수백만 원이 갈리는 판단입니다."
+    },
+    {
+     "key": "care:4c3ebdbbde",
+     "owner": "care",
+     "tag": "p",
+     "label": "본문",
+     "text": "리포트에 담기는 것"
+    },
+    {
+     "key": "care:2e8412a20a",
+     "owner": "care",
+     "tag": "li",
+     "label": "목록",
+     "text": "<strong>계약상 잔존가치</strong><span>인수하려면 얼마를 내야 하는지</span>"
+    },
+    {
+     "key": "care:cf2ab13b01",
+     "owner": "care",
+     "tag": "li",
+     "label": "목록",
+     "text": "<strong>중고차 실거래 시세</strong><span>같은 연식·주행거리 차량이 실제로 얼마에 팔리는지</span>"
+    },
+    {
+     "key": "care:57df234fa5",
+     "owner": "care",
+     "tag": "li",
+     "label": "목록",
+     "text": "<strong>반납 시 예상 정산</strong><span>초과 주행, 손상 감가 등 추가로 나갈 금액</span>"
+    },
+    {
+     "key": "care:d00d4223d3",
+     "owner": "care",
+     "tag": "li",
+     "label": "목록",
+     "text": "<strong>인수 후 매각 시 예상 차익</strong><span>인수가와 시세의 차이, 처분까지의 비용</span>"
+    },
+    {
+     "key": "care:3270f68082",
+     "owner": "care",
+     "tag": "li",
+     "label": "목록",
+     "text": "<strong>매각업체 매칭</strong><span>인수 후 매각을 택하시면 매각업체를 연결하거나 매각 방안을 추천</span>"
+    },
+    {
+     "key": "care:e83b9a7d89",
+     "owner": "care",
+     "tag": "li",
+     "label": "목록",
+     "text": "<strong>결론</strong><span>어느 쪽이 얼마나 유리한지</span>"
+    },
+    {
+     "key": "care:fc0df69e5a",
+     "owner": "care",
+     "tag": "p",
+     "label": "본문",
+     "text": "시세가 잔존가치보다 높으면 인수 후 매각이 유리합니다. 반대면 반납이 낫습니다. 차종과 시기에 따라 매번 다르기 때문에 그때그때 숫자를 봐야 합니다."
+    },
+    {
+     "key": "care:283c3667ed",
+     "owner": "care",
+     "tag": "p",
+     "label": "본문",
+     "text": "만기 도래 전에 먼저 연락드려 이 리포트를 드립니다. 판단은 회사에서 하시고, 결정된 방향으로 저희가 처리합니다. 인수 후 매각을 택하시면 인수업체를 확인하고 매각처까지 연결해 드립니다."
+    },
+    {
+     "key": "care:465ff2fd7a",
+     "owner": "care",
+     "tag": "p",
+     "label": "본문",
+     "text": "차량을 많이 쓰신 경우일수록 인수 후 매각이 유리해지는 폭이 큽니다. 주행거리가 길어 반납 정산이 불리하게 나오는 차량일수록 특히 그렇습니다."
+    },
+    {
+     "key": "care:8cf0ecfcc3",
+     "owner": "care",
+     "tag": "p",
+     "label": "본문",
+     "text": "<strong>이 리포트도 별도 비용을 받지 않습니다.</strong>"
+    },
+    {
+     "key": "care:d36cfe2c51",
+     "owner": "care",
+     "tag": "h2",
+     "label": "제목",
+     "text": "만기일에 맞춘 차량 제공"
+    },
+    {
+     "key": "care:60c8dd9e5c",
+     "owner": "care",
+     "tag": "p",
+     "label": "본문",
+     "text": "차량은 계약한다고 바로 나오지 않습니다. 차종과 사양에 따라 생산과 출고에 기간이 걸리고, 특장 작업이 붙으면 제작 기간이 더해집니다. 만기일은 정해져 있는데 새 차가 늦게 나오면 그사이 차량 공백이 생깁니다."
+    },
+    {
+     "key": "care:b467955827",
+     "owner": "care",
+     "tag": "p",
+     "label": "본문",
+     "text": "플릿케어는 만기일에서 거꾸로 계산해 움직입니다. 차종별 생산·출고 기간을 확인하고 고객사와 미리 소통해 발주 시점을 정합니다. <strong>만기일에 맞춰 새 차가 도착하도록 일정을 맞추는 것</strong>까지가 저희 일입니다."
+    },
+    {
+     "key": "care:afa6b8700c",
+     "owner": "care",
+     "tag": "p",
+     "label": "본문",
+     "text": "만기일 확인"
+    },
+    {
+     "key": "care:94d73debf0",
+     "owner": "care",
+     "tag": "p",
+     "label": "본문",
+     "text": "대장에서 만기가 다가오는 차량을 먼저 뽑아 알려드립니다."
+    },
+    {
+     "key": "care:009824f346",
+     "owner": "care",
+     "tag": "p",
+     "label": "본문",
+     "text": "차종·사양 협의"
+    },
+    {
+     "key": "care:9749d5d3ce",
+     "owner": "care",
+     "tag": "p",
+     "label": "본문",
+     "text": "같은 차로 갈지, 용도가 바뀌었는지 고객사와 미리 정합니다."
+    },
+    {
+     "key": "care:9ed34ca6cf",
+     "owner": "care",
+     "tag": "p",
+     "label": "본문",
+     "text": "생산·출고 기간 확인"
+    },
+    {
+     "key": "care:c47420cb3a",
+     "owner": "care",
+     "tag": "p",
+     "label": "본문",
+     "text": "차종과 시기에 따라 납기가 크게 다릅니다. 특장이 붙으면 제작 기간이 더해집니다."
+    },
+    {
+     "key": "care:d985051042",
+     "owner": "care",
+     "tag": "p",
+     "label": "본문",
+     "text": "발주 시점 역산"
+    },
+    {
+     "key": "care:2afab9dc89",
+     "owner": "care",
+     "tag": "p",
+     "label": "본문",
+     "text": "납기에 계약·심사 기간을 더해 언제 발주해야 하는지 정합니다."
+    },
+    {
+     "key": "care:d66ba3ce9f",
+     "owner": "care",
+     "tag": "p",
+     "label": "본문",
+     "text": "인수·반납 맞물리기"
+    },
+    {
+     "key": "care:99c6a3e8eb",
+     "owner": "care",
+     "tag": "p",
+     "label": "본문",
+     "text": "새 차 출고와 기존 차 반납 사이에 공백이 생기지 않게 맞춥니다."
+    },
+    {
+     "key": "care:21090d2c56",
+     "owner": "care",
+     "tag": "p",
+     "label": "본문",
+     "text": "납기가 밀릴 수도 있습니다. 그럴 때는 기존 계약 연장 등으로 공백을 메우는 방법을 같이 정합니다. 미리 알고 움직이면 대부분 해결됩니다."
+    }
+   ]
+  },
+  {
+   "id": "contact",
+   "title": "상담·견적 문의",
+   "file": "contact.html",
+   "items": [
+    {
+     "key": "contact:132d53810e",
+     "owner": "contact",
+     "tag": "h1",
+     "label": "제목",
+     "text": "상담·견적 문의"
+    },
+    {
+     "key": "contact:b58d2ff926",
+     "owner": "contact",
+     "tag": "p",
+     "label": "본문",
+     "text": "법인명과 연락처만 남겨 주시면 됩니다. 기존에 받으신 견적서가 있으면 더 빠릅니다."
+    },
+    {
+     "key": "contact:e93d383a47",
+     "owner": "contact",
+     "tag": "p",
+     "label": "본문",
+     "text": "전화 상담"
+    },
+    {
+     "key": "contact:dc88a9ec4b",
+     "owner": "contact",
+     "tag": "p",
+     "label": "본문",
+     "text": "평일 09:00 – 18:00"
+    },
+    {
+     "key": "contact:c7cd0e00be",
+     "owner": "contact",
+     "tag": "p",
+     "label": "본문",
+     "text": "차종과 대수만 알려주셔도 상담이 시작됩니다. 아직 정하지 않으셨어도 괜찮습니다."
+    },
+    {
+     "key": "contact:ef314bff5c",
+     "owner": "contact",
+     "tag": "p",
+     "label": "본문",
+     "text": "담당자명과 연락처만 필수입니다. 확인하는 대로 연락드립니다."
+    },
+    {
+     "key": "contact:24f8ccb1c4",
+     "owner": "contact",
+     "tag": "p",
+     "label": "본문",
+     "text": "접수됐습니다. 확인하는 대로 연락드리겠습니다."
+    },
+    {
+     "key": "contact:386d5baca2",
+     "owner": "contact",
+     "tag": "h2",
+     "label": "제목",
+     "text": "견적서·사양서를 보내시면 더 빠릅니다"
+    },
+    {
+     "key": "contact:f00f6e0f24",
+     "owner": "contact",
+     "tag": "p",
+     "label": "본문",
+     "text": "같은 차종·같은 기간으로 조건을 맞춰 비교해야 의미가 있기 때문에, 기준이 되는 견적이 있으면 훨씬 정확한 답을 드릴 수 있습니다."
+    },
+    {
+     "key": "contact:f7fe55dfc3",
+     "owner": "contact",
+     "tag": "p",
+     "label": "본문",
+     "text": "메일 제목에 <strong>법인명과 연락처</strong>만 함께 적어 주세요."
+    },
+    {
+     "key": "contact:beea084ede",
+     "owner": "contact",
+     "tag": "h3",
+     "label": "소제목",
+     "text": "착수 시 준비해 주실 것"
+    },
+    {
+     "key": "contact:42056e5384",
+     "owner": "contact",
+     "tag": "li",
+     "label": "목록",
+     "text": "운용 차량 목록 — 차종, 대수, 금융사, 계약 형태"
+    },
+    {
+     "key": "contact:e3fdd090eb",
+     "owner": "contact",
+     "tag": "li",
+     "label": "목록",
+     "text": "차량별 만기일과 보험 갱신일 — 아시는 범위 내에서"
+    },
+    {
+     "key": "contact:3ac69237d4",
+     "owner": "contact",
+     "tag": "li",
+     "label": "목록",
+     "text": "기존 견적서 — 있는 경우"
+    },
+    {
+     "key": "contact:06988a6ec5",
+     "owner": "contact",
+     "tag": "li",
+     "label": "목록",
+     "text": "신규 도입·교체 계획"
+    },
+    {
+     "key": "contact:3df3adf559",
+     "owner": "contact",
+     "tag": "p",
+     "label": "본문",
+     "text": "모르셔도 됩니다. 저희가 확인해 드리는 것부터 시작해도 늦지 않습니다."
+    }
+   ]
+  },
+  {
+   "id": "faq",
+   "title": "자주 묻는 질문",
+   "file": "faq.html",
+   "items": [
+    {
+     "key": "faq:ae2ce92137",
+     "owner": "faq",
+     "tag": "h1",
+     "label": "제목",
+     "text": "자주 묻는 질문"
+    },
+    {
+     "key": "faq:05c15e3a7e",
+     "owner": "faq",
+     "tag": "p",
+     "label": "본문",
+     "text": "비용, 화물·특장 승인, 보험 관리 범위, 만기 교체에 대해 가장 많이 받는 질문입니다."
+    },
+    {
+     "key": "faq:5b4db159b7",
+     "owner": "faq",
+     "tag": "h2",
+     "label": "제목",
+     "text": "비용"
+    },
+    {
+     "key": "faq:9c9cc26fe0",
+     "owner": "faq",
+     "tag": "summary",
+     "label": "질문",
+     "text": "차량관리 대행 비용이 얼마인가요?"
+    },
+    {
+     "key": "faq:13b8d36044",
+     "owner": "faq",
+     "tag": "p",
+     "label": "본문",
+     "text": "받지 않습니다. 플릿케어의 수익은 제조사와 캐피탈사 등 공급자 측에서 발생합니다. 그래서 고객사는 비용 부담 없이 고객 측 대리인을 두는 구조가 됩니다."
+    },
+    {
+     "key": "faq:e9ceca1796",
+     "owner": "faq",
+     "tag": "summary",
+     "label": "질문",
+     "text": "운용리스 차량 보험을 플릿케어에 위탁하면 비용이 드나요?"
+    },
+    {
+     "key": "faq:750a6c1d3e",
+     "owner": "faq",
+     "tag": "p",
+     "label": "본문",
+     "text": "무상입니다. 보험 비교와 가입, 갱신 서류 대행까지 별도 수수료를 받지 않습니다. 보험료 자체는 보험사에 납부하시는 금액이고, 저희가 중간에서 얹는 금액은 없습니다. 보험 계약은 제휴 보험대리점을 통해 체결되며, 플릿케어는 차량대장과 갱신 일정을 붙여 관리하는 역할입니다."
+    },
+    {
+     "key": "faq:b41276012b",
+     "owner": "faq",
+     "tag": "summary",
+     "label": "질문",
+     "text": "그러면 어디서 수익이 나나요?"
+    },
+    {
+     "key": "faq:29f3c0cdac",
+     "owner": "faq",
+     "tag": "p",
+     "label": "본문",
+     "text": "제조사와 캐피탈사 등 공급자 측에서 나옵니다. 고객사에서 받지 않습니다. 관리를 잘해서 다음 차량도 저희를 통해 진행하시는 것이 저희에게도 이득인 구조라, 계약만 성사시키고 연락이 끊기지 않습니다."
+    },
+    {
+     "key": "faq:d685853966",
+     "owner": "faq",
+     "tag": "summary",
+     "label": "질문",
+     "text": "만기 손익 분석 리포트도 비용이 드나요?"
+    },
+    {
+     "key": "faq:7ae8acb4fd",
+     "owner": "faq",
+     "tag": "p",
+     "label": "본문",
+     "text": "받지 않습니다. 만기 도래 전에 먼저 연락드려 리포트를 드립니다."
+    },
+    {
+     "key": "faq:50838fd224",
+     "owner": "faq",
+     "tag": "summary",
+     "label": "질문",
+     "text": "숨은 비용이 있나요?"
+    },
+    {
+     "key": "faq:d1e90ef77d",
+     "owner": "faq",
+     "tag": "p",
+     "label": "본문",
+     "text": "정비 수리비, 보험료, 특장 제작비, 과태료처럼 실제로 외부에 지급되는 금액은 고객사 부담입니다. 다만 플릿케어가 그 위에 수수료를 얹지 않습니다."
+    },
+    {
+     "key": "faq:37361b0c0b",
+     "owner": "faq",
+     "tag": "h2",
+     "label": "제목",
+     "text": "화물·특장"
+    },
+    {
+     "key": "faq:c389a7fcfc",
+     "owner": "faq",
+     "tag": "summary",
+     "label": "질문",
+     "text": "화물차 외주장착 비용도 리스 이용금액에 합산 가능한가요?"
+    },
+    {
+     "key": "faq:593a10204a",
+     "owner": "faq",
+     "tag": "p",
+     "label": "본문",
+     "text": "가능합니다. 다만 대부분의 리스사는 특장비를 리스료에 넣어주지 않고 따로 현금으로 부담하라고 합니다. 특장물의 잔존가치를 잡기 어렵다는 이유입니다. 플릿케어는 금융사 담당자와 직접 협의해 특장 비용까지 리스료에 포함시킵니다. 목돈이 한 번에 나가지 않아 초기 자금 부담이 줄어듭니다. 사양과 견적을 보내 주시면 어느 금융사에서 어떤 조건으로 가능한지 확인해 드립니다."
+    },
+    {
+     "key": "faq:3805f4286b",
+     "owner": "faq",
+     "tag": "summary",
+     "label": "질문",
+     "text": "만기에 반납할 때 특장물을 원상복구해야 하나요?"
+    },
+    {
+     "key": "faq:5857e6d650",
+     "owner": "faq",
+     "tag": "p",
+     "label": "본문",
+     "text": "금융사에 따라 다릅니다. 원상복구를 요구하는 곳이 많은데, 붙여둔 윙바디나 리프트를 떼어내고 원래 상태로 되돌려 반납하라는 조건입니다. 탈거 비용이 또 들고 떼어낸 특장물은 쓸 데가 없습니다. 플릿케어는 계약 전에 반납 조건을 확인하고 원상복구 요구가 없는 금융사로 진행합니다. 계약할 때 정해지는 조건이라 출고 후에는 바꾸기 어렵습니다. 시작할 때 잡아야 합니다."
+    },
+    {
+     "key": "faq:833f901499",
+     "owner": "faq",
+     "tag": "summary",
+     "label": "질문",
+     "text": "캐피탈사에서 특장 때문에 거절당했는데 가능할까요?"
+    },
+    {
+     "key": "faq:0c61f725e8",
+     "owner": "faq",
+     "tag": "p",
+     "label": "본문",
+     "text": "조건을 알려주세요. 특장 차량은 잔가 산정이 어려워 승인을 꺼리는 금융사가 많지만, 진행 경험이 있는 곳은 다릅니다. 한 곳에서 막혔다고 끝이 아닙니다."
+    },
+    {
+     "key": "faq:1cf4e73b0a",
+     "owner": "faq",
+     "tag": "summary",
+     "label": "질문",
+     "text": "어떤 장착물까지 진행되나요?"
+    },
+    {
+     "key": "faq:a903b8ea46",
+     "owner": "faq",
+     "tag": "p",
+     "label": "본문",
+     "text": "윙바디와 탑차, 탑 사이즈 제작, 내장탑·냉동탑, 파워게이트 리프트, 크레인, 차량 하부보강과 차바닥, 도색·래핑 등을 진행합니다. 상용차 2.5톤 이상은 별도 협의로 진행합니다. 목록에 없는 사양도 사양서를 보내 주시면 확인해 드립니다."
+    },
+    {
+     "key": "faq:3cbceb184f",
+     "owner": "faq",
+     "tag": "summary",
+     "label": "질문",
+     "text": "구조변경과 등록도 대신 해주시나요?"
+    },
+    {
+     "key": "faq:b1c6a45b29",
+     "owner": "faq",
+     "tag": "p",
+     "label": "본문",
+     "text": "제작사 섭외부터 사양 결정, 구조변경 승인, 등록 절차까지 함께 진행합니다."
+    },
+    {
+     "key": "faq:151895499e",
+     "owner": "faq",
+     "tag": "h2",
+     "label": "제목",
+     "text": "보험"
+    },
+    {
+     "key": "faq:87ed2b7590",
+     "owner": "faq",
+     "tag": "summary",
+     "label": "질문",
+     "text": "보험 갱신 시기를 놓칠까 걱정됩니다."
+    },
+    {
+     "key": "faq:eb78b8a2c6",
+     "owner": "faq",
+     "tag": "p",
+     "label": "본문",
+     "text": "갱신 시점이 오기 전에 저희가 먼저 알려드립니다. 차량별 갱신일을 대장으로 관리하기 때문에 차량 수가 늘어도 누락되지 않습니다. 서류 작업도 대행합니다."
+    },
+    {
+     "key": "faq:e94ab422d1",
+     "owner": "faq",
+     "tag": "summary",
+     "label": "질문",
+     "text": "사고 처리도 대신 해주시나요?"
+    },
+    {
+     "key": "faq:1caf9474a0",
+     "owner": "faq",
+     "tag": "p",
+     "label": "본문",
+     "text": "아닙니다. 사고 접수와 대차 수배, 보상 협의는 가입하신 보험사와 직접 진행하셔야 합니다. 플릿케어가 맡는 것은 보험 가입과 갱신 관리까지입니다. 다만 차량별로 어느 보험사에 어떤 조건으로 가입돼 있는지 대장에 정리돼 있어, 사고가 났을 때 어디로 연락해야 하는지는 바로 확인해 드릴 수 있습니다."
+    },
+    {
+     "key": "faq:7e89f604ca",
+     "owner": "faq",
+     "tag": "summary",
+     "label": "질문",
+     "text": "계약 중에 보험 조건을 바꾸려면 어떻게 하나요?"
+    },
+    {
+     "key": "faq:92cc8daef6",
+     "owner": "faq",
+     "tag": "p",
+     "label": "본문",
+     "text": "플릿케어로 요청하시면 됩니다. 운전자 연령 변경, 대물 한도 조정, 자차 조건 변경처럼 계약 중에 손봐야 할 일이 생기면 저희가 대리점을 통해 처리합니다. 보험사에 직접 연락하실 필요가 없습니다."
+    },
+    {
+     "key": "faq:b25a7304b0",
+     "owner": "faq",
+     "tag": "summary",
+     "label": "질문",
+     "text": "지금 다른 곳에서 가입한 보험도 맡길 수 있나요?"
+    },
+    {
+     "key": "faq:ef0ea2b08f",
+     "owner": "faq",
+     "tag": "p",
+     "label": "본문",
+     "text": "가능합니다. 현재 증권 정보를 주시면 갱신일을 대장에 올려 관리하고, 갱신 시점에 조건을 비교해 드립니다."
+    },
+    {
+     "key": "faq:30368caab3",
+     "owner": "faq",
+     "tag": "h2",
+     "label": "제목",
+     "text": "만기·교체"
+    },
+    {
+     "key": "faq:10b4c7ab1d",
+     "owner": "faq",
+     "tag": "summary",
+     "label": "질문",
+     "text": "만기 시 반납과 인수 후 매각 중 무엇이 유리한지 어떻게 판가름하나요?"
+    },
+    {
+     "key": "faq:673a9e6f8c",
+     "owner": "faq",
+     "tag": "p",
+     "label": "본문",
+     "text": "계약상 잔존가치와 중고차 실거래 시세를 비교합니다. 시세가 잔존가치보다 높으면 인수 후 매각이 유리하고, 반대면 반납이 낫습니다. 여기에 반납 시 초과 주행·손상 감가와 매각까지의 비용을 더해 최종 숫자를 냅니다. 차종과 시기에 따라 매번 다르기 때문에 그때그때 계산해 리포트로 드립니다."
+    },
+    {
+     "key": "faq:78178ca30a",
+     "owner": "faq",
+     "tag": "summary",
+     "label": "질문",
+     "text": "신차는 언제 발주해야 하나요?"
+    },
+    {
+     "key": "faq:a36e3611a5",
+     "owner": "faq",
+     "tag": "p",
+     "label": "본문",
+     "text": "차량은 계약한다고 바로 나오지 않고 생산과 출고에 기간이 걸립니다. 특장 작업이 붙으면 제작 기간이 더해집니다. 그래서 만기일에서 거꾸로 계산해 발주 시점을 정합니다. 차종별 납기를 확인하고 계약·심사 기간을 더해 언제 움직여야 하는지 저희가 계산해 미리 알려드리고, 고객사와 소통하며 만기일에 맞춰 차량을 대드립니다."
+    },
+    {
+     "key": "faq:992e431c0e",
+     "owner": "faq",
+     "tag": "summary",
+     "label": "질문",
+     "text": "납기가 밀리면 어떻게 되나요?"
+    },
+    {
+     "key": "faq:de44788655",
+     "owner": "faq",
+     "tag": "p",
+     "label": "본문",
+     "text": "기존 계약 연장 등으로 공백을 메우는 방법을 같이 정합니다. 미리 알고 대응하면 대부분 해결됩니다."
+    },
+    {
+     "key": "faq:50e0623ba7",
+     "owner": "faq",
+     "tag": "h2",
+     "label": "제목",
+     "text": "관리 범위"
+    },
+    {
+     "key": "faq:ac4841c6da",
+     "owner": "faq",
+     "tag": "summary",
+     "label": "질문",
+     "text": "리스나 렌탈 말고 할부로도 진행할 수 있나요?"
+    },
+    {
+     "key": "faq:a948e74576",
+     "owner": "faq",
+     "tag": "p",
+     "label": "본문",
+     "text": "가능합니다. 다만 저희가 주로 다루는 것은 리스와 렌탈입니다. 할부는 출고 시점부터 차량이 법인 명의가 되고 자산으로 잡히기 때문에, 비용 처리 방식과 부채비율에 미치는 영향이 리스·렌탈과 다릅니다. 어느 쪽이 유리한지는 회사의 재무 상황과 차량 용도에 따라 갈리므로, 같은 차·같은 기간 기준으로 세 방식을 나란히 계산해 비교표로 드립니다. 금융사 선택과 심사 진행은 리스·렌탈과 똑같이 대행합니다."
+    },
+    {
+     "key": "faq:7c48f68b03",
+     "owner": "faq",
+     "tag": "summary",
+     "label": "질문",
+     "text": "지금 다른 캐피탈사와 계약 중인 차량도 맡길 수 있나요?"
+    },
+    {
+     "key": "faq:2bd95bf44f",
+     "owner": "faq",
+     "tag": "p",
+     "label": "본문",
+     "text": "가능합니다. 금융사가 어디든 대장에 올려 함께 관리합니다. 차량번호와 계약사, 만기일만 알려주시면 정리해 드립니다. 여러 금융사에 흩어진 차량을 한 곳에서 보는 것이 저희의 주된 역할입니다."
+    },
+    {
+     "key": "faq:adecff5483",
+     "owner": "faq",
+     "tag": "summary",
+     "label": "질문",
+     "text": "몇 대부터 맡길 수 있나요?"
+    },
+    {
+     "key": "faq:b03119c3bb",
+     "owner": "faq",
+     "tag": "p",
+     "label": "본문",
+     "text": "대수 기준을 두지 않습니다. 대수가 적어도 만기·보험·정비는 똑같이 발생합니다."
+    },
+    {
+     "key": "faq:bad06e25ae",
+     "owner": "faq",
+     "tag": "summary",
+     "label": "질문",
+     "text": "차를 새로 뽑을 계획이 없어도 관리만 맡길 수 있나요?"
+    },
+    {
+     "key": "faq:1287a11432",
+     "owner": "faq",
+     "tag": "p",
+     "label": "본문",
+     "text": "상담해 주세요. 현재 차량 구성과 만기 분포를 먼저 정리해 드리는 것부터 시작합니다."
+    },
+    {
+     "key": "faq:79b3e3eab3",
+     "owner": "faq",
+     "tag": "summary",
+     "label": "질문",
+     "text": "현장관리 서비스는 무엇인가요?"
+    },
+    {
+     "key": "faq:f38095a98a",
+     "owner": "faq",
+     "tag": "p",
+     "label": "본문",
+     "text": "3개월마다 사업장을 직접 방문하는 서비스입니다. 현장 방문 → 현장 리포트 작성 → 본사 협의 → 개선 실행·관리 네 단계로 돌아가고, 개선 결과는 다음 분기 방문에서 확인합니다. 리포트에는 차량별 상태와 주행거리, 사고·정비 이력, 보험 갱신·만기 캘린더, 현장 요청사항, 개선 권고와 전 분기 조치 결과가 담깁니다. 계약 후 현장에 오는 에이전트는 저희뿐입니다. 이 서비스도 별도 비용을 받지 않습니다."
+    },
+    {
+     "key": "faq:0b3049fec4",
+     "owner": "faq",
+     "tag": "summary",
+     "label": "질문",
+     "text": "정비도 관리해 주시나요?"
+    },
+    {
+     "key": "faq:154f478542",
+     "owner": "faq",
+     "tag": "p",
+     "label": "본문",
+     "text": "정비 접수를 저희가 대신 받지는 않습니다. 대신 계약할 때 정비가 포함된 상품으로 갈지 정해 드립니다. 렌트·리스 상품 중에는 정기 점검과 소모품 교체가 포함된 구성이 있어서, 정비까지 신경 쓰기 어려우시면 포함형으로 계약하시는 편이 낫습니다. 반대로 운행이 적은 차량은 그때그때 실비로 처리하는 게 쌉니다. 차량 용도와 주행거리를 보고 어느 쪽이 유리한지 같이 판단해 드립니다."
+    },
+    {
+     "key": "faq:55906c56ac",
+     "owner": "faq",
+     "tag": "summary",
+     "label": "질문",
+     "text": "운행기록부도 대신 써주나요?"
+    },
+    {
+     "key": "faq:1ed506805e",
+     "owner": "faq",
+     "tag": "p",
+     "label": "본문",
+     "text": "쓰지 않습니다. 양식을 드리고, 작성 대상 차량을 안내하고, 결산 시즌에 맞춰 알려드리는 데까지입니다. 운행 사실은 실제 운전자만 알 수 있어 대행 작성은 하지 않습니다. 운행 기록 자체를 자동화하고 싶으시면 FMS 업체를 비교해 제안해 드립니다. 업체마다 구성 항목이 달라서 필요한 기능을 먼저 정리하는 편이 좋습니다."
+    },
+    {
+     "key": "faq:a3efc8f645",
+     "owner": "faq",
+     "tag": "summary",
+     "label": "질문",
+     "text": "차량 정보를 넘겨도 안전한가요?"
+    },
+    {
+     "key": "faq:9b33c8b5e8",
+     "owner": "faq",
+     "tag": "p",
+     "label": "본문",
+     "text": "차량관리 목적 외에는 사용하지 않습니다. 상담 과정에서 받은 개인정보는 상담 종료 후 1년까지만 보관하고 파기합니다."
+    },
+    {
+     "key": "faq:131b317094",
+     "owner": "faq",
+     "tag": "h2",
+     "label": "제목",
+     "text": "여기 없는 질문이라면"
+    },
+    {
+     "key": "faq:c1ef01f890",
+     "owner": "faq",
+     "tag": "p",
+     "label": "본문",
+     "text": "차량 상황은 회사마다 달라서 답이 하나로 정해지지 않는 경우가 많습니다. 전화 주시면 그 자리에서 확인해 드립니다."
+    }
+   ]
+  }
+ ]
+}
