@@ -15,7 +15,8 @@ NAV = [
     ("service.html", "서비스 안내"),
     ("truck.html",   "화물·특장 솔루션"),
     ("care.html",    "보험·만기 케어"),
-    ("contact.html", "상담·견적 문의"),
+    ("quote.html",   "견적 요청"),
+    ("contact.html", "상담 요청"),
 ]
 
 
@@ -23,7 +24,7 @@ def slug(path):
     return "" if path == "index.html" else path[:-5]
 
 
-def head(title, desc, path, page_class=""):
+def head(title, desc, path, page_class="", extra=""):
     canon = SITE + "/" + slug(path)
     return f"""<!DOCTYPE html>
 <html lang="ko">
@@ -58,7 +59,7 @@ def head(title, desc, path, page_class=""):
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css">
 <link rel="stylesheet" href="/css/style.css">
 
-<script src="/js/main.js" defer></script>
+<script src="/js/main.js" defer></script>{extra}
 </head>
 <body{(' class="' + page_class + '"') if page_class else ''}>
 
@@ -85,7 +86,7 @@ def header(active):
 
     <div class="hdr-cta">
       <a class="hdr-tel" href="{TEL_L}">{TEL_D}</a>
-      <a class="btn btn-ink" href="/contact.html">상담 요청</a>
+      <a class="btn btn-ink" href="/quote.html">견적 요청</a>
     </div>
 
     <button class="hdr-menu" type="button" id="menuBtn" aria-expanded="false" aria-controls="gnb" aria-label="메뉴 열기">
@@ -118,7 +119,8 @@ CTA_BAND = f"""
       </div>
       <div class="cta-btns">
         <a class="btn btn-green btn-lg" href="{TEL_L}">{TEL_D}</a>
-        <a class="btn btn-ghost btn-lg" href="/contact.html">상담·견적 문의</a>
+        <a class="btn btn-ghost btn-lg" href="/quote.html">견적 요청</a>
+        <a class="btn btn-ghost btn-lg" href="/contact.html">상담 요청</a>
       </div>
     </div>
   </section>
@@ -158,8 +160,9 @@ def footer():
 </footer>
 
 <div class="mbar">
-  <a class="mbar-tel" href="{TEL_L}">전화 상담 {TEL_D}</a>
-  <a class="mbar-form" href="/contact.html">상담 요청</a>
+  <a class="mbar-tel" href="{TEL_L}" aria-label="전화 상담 {TEL_D}">전화 상담</a>
+  <a class="mbar-ask" href="/contact.html">상담 요청</a>
+  <a class="mbar-form" href="/quote.html">견적 요청</a>
 </div>
 
 </body>
@@ -179,7 +182,8 @@ INDEX = f"""
           만기 손익 최적화 분석 리포트</p>
         <p class="hero-free">차량관리 대행 비용은 받지 않습니다.</p>
         <div class="hero-btns">
-          <a class="btn btn-ink btn-lg" href="/contact.html">상담·견적 문의</a>
+          <a class="btn btn-ink btn-lg" href="/quote.html">견적 요청</a>
+          <a class="btn btn-line btn-lg" href="/contact.html">상담 요청</a>
           <a class="btn btn-line btn-lg" href="{TEL_L}">{TEL_D}</a>
         </div>
       </div>
@@ -961,14 +965,290 @@ CARE = page_head(
 """ + CTA_BAND
 
 # ==========================================================================
-# 상담·견적 문의
+# 견적 요청 — 차량을 눌러서 고르는 4단계 폼 (동작은 site/js/quote.js)
+# 동적으로 채워지는 자리는 div/span 으로 둔다. p·li·h3 은 관리자 편집 대상이 된다.
 # ==========================================================================
-CONTACT = page_head(
-    "상담·견적 문의",
-    "법인명과 연락처만 남겨 주시면 됩니다. 기존에 받으신 견적서가 있으면 더 빠릅니다."
+def q_chips(key, values, multi=False, cls=""):
+    btns = "".join(
+        f'<button type="button" class="q-chip" data-v="{v}" aria-pressed="false">{v}</button>'
+        for v in values)
+    return (f'<div class="q-chips{(" " + cls) if cls else ""}" data-key="{key}"'
+            f'{" data-multi" if multi else ""}>{btns}</div>')
+
+
+def q_cards(key, items):
+    btns = "".join(
+        f'<button type="button" class="q-card" data-v="{t}" aria-pressed="false">'
+        f'<strong>{t}</strong><span>{d}</span></button>'
+        for t, d in items)
+    return f'<div class="q-cards" data-key="{key}">{btns}</div>'
+
+
+QUOTE = page_head(
+    "견적 요청",
+    "차량과 조건을 순서대로 눌러 주세요. 여러 금융사 조건을 같은 기준으로 받아 비교표로 보내 드립니다."
 ) + f"""
   <section class="sec">
     <div class="wrap">
+      <div class="quote" id="quote">
+
+        <div id="qFlow">
+          <ol class="q-prog" id="qProg">
+            <li class="is-now" aria-current="step">차량 선택</li>
+            <li>특장·외주장착</li>
+            <li>계약 조건</li>
+            <li>신청자 정보</li>
+          </ol>
+
+          <form id="qForm" novalidate>
+
+            <div class="q-step" data-step="1">
+              <h2 class="q-title">어떤 차량이 필요하신가요</h2>
+              <p class="q-desc">제조사부터 순서대로 고르시면 예상 차량가가 바로 계산됩니다.
+                2.5톤 이상이나 목록에 없는 차는 맨 끝의 '목록에 없는 차량'을 눌러 직접 적어 주세요.</p>
+
+              <div class="q-row">
+                <p class="q-label">제조사</p>
+                <div class="q-chips" id="qBrand"></div>
+              </div>
+
+              <div class="q-row" id="qManualWrap" hidden>
+                <label class="q-label" for="qManualCar">원하시는 차종</label>
+                <input type="text" id="qManualCar" maxlength="120"
+                       placeholder="예) 현대 마이티 3.5톤 윙바디 / 5톤 냉동탑차">
+                <div class="q-hint">제조사, 톤급, 적재함 형태를 아시는 만큼만 적어 주세요. 가격표에 없는 차량은 확인 후 안내해 드립니다.</div>
+              </div>
+
+              <div class="q-row" id="qCatWrap" hidden>
+                <p class="q-label">구분</p>
+                <div class="q-chips" id="qCat"></div>
+              </div>
+              <div class="q-row" id="qModelWrap" hidden>
+                <p class="q-label">차종</p>
+                <div class="q-chips" id="qModel"></div>
+              </div>
+              <div class="q-row" id="qLineWrap" hidden>
+                <p class="q-label">세부 사양</p>
+                <div class="q-chips" id="qLine"></div>
+              </div>
+              <div class="q-row" id="qTrimWrap" hidden>
+                <p class="q-label">트림</p>
+                <div class="q-chips" id="qTrim"></div>
+              </div>
+              <div class="q-row" id="qOptWrap" hidden>
+                <p class="q-label">제조사 옵션 <span class="opt">여러 개 선택</span></p>
+                <div class="q-chips" id="qOpt"></div>
+              </div>
+              <div class="q-row" id="qColorWrap" hidden>
+                <p class="q-label">색상 <span class="opt">선택</span></p>
+                <div id="qExtRow"><div class="q-sub">외장</div><div class="q-chips" id="qExt"></div></div>
+                <div id="qIntRow"><div class="q-sub">내장</div><div class="q-chips" id="qInt"></div></div>
+              </div>
+
+              <div class="q-row">
+                <label class="q-label" for="qQty">대수</label>
+                <div class="q-qty"><input type="number" id="qQty" min="1" max="999" value="1" inputmode="numeric"><span>대</span></div>
+              </div>
+
+              <div class="q-price" id="qPrice" hidden>
+                <div>
+                  <div class="q-price-k">예상 차량가 (1대, 부가세 포함)</div>
+                  <div class="q-price-n" id="qPriceNum">-</div>
+                  <div class="q-price-b" id="qPriceBreak"></div>
+                </div>
+                <div class="q-price-note">제조사 가격표 기준입니다.<br>특장비와 실제 조건은 견적서로 안내합니다.</div>
+              </div>
+
+              <div class="q-nav">
+                <button type="button" class="btn btn-ink btn-lg" data-go="2">다음 — 특장·외주장착</button>
+              </div>
+            </div>
+
+            <div class="q-step" data-step="2" hidden>
+              <h2 class="q-title">특장·외주장착이 필요하신가요</h2>
+              <p class="q-desc">출고 후 따로 제작·장착하는 항목입니다. 특장비를 리스료에 포함할 수 있는
+                금융사를 먼저 찾습니다. 필요 없으시면 그냥 넘어가셔도 됩니다.</p>
+
+              <div class="q-row">
+                <p class="q-label">장착 항목 <span class="opt">여러 개 선택</span></p>
+                {q_chips("kit", ["윙바디", "내장탑", "냉동·냉장탑", "파워게이트", "리프트", "크레인",
+                                 "하부보강·차바닥", "도색·래핑", "블랙박스", "썬팅"], multi=True)}
+              </div>
+
+              <div class="q-row">
+                <label class="q-label" for="qKitInput">직접 입력 <span class="opt">선택</span></label>
+                <div class="q-add">
+                  <input type="text" id="qKitInput" maxlength="60" placeholder="예) 탑 내부 선반, 사다리 거치대">
+                  <button type="button" class="btn btn-line" id="qKitAdd">추가</button>
+                </div>
+                <div class="q-tags" id="qKitList"></div>
+              </div>
+
+              <div class="q-row">
+                <p class="q-label">구조변경 <span class="opt">선택</span></p>
+                {q_chips("tuning", ["필요합니다", "필요 없습니다", "잘 모르겠습니다"])}
+              </div>
+
+              <div class="q-nav">
+                <button type="button" class="btn btn-line btn-lg" data-go="1">이전</button>
+                <button type="button" class="btn btn-ink btn-lg" data-go="3">다음 — 계약 조건</button>
+              </div>
+            </div>
+
+            <div class="q-step" data-step="3" hidden>
+              <h2 class="q-title">원하시는 계약 조건을 알려 주세요</h2>
+              <p class="q-desc">상품 종류와 계약 기간만 필수입니다. 나머지는 정하지 않으셔도 됩니다.</p>
+
+              <div class="q-row">
+                <p class="q-label">상품 종류 <span class="req">필수</span></p>
+                {q_cards("product", [
+                    ("운용리스", "매달 내는 돈을 비용 처리"),
+                    ("금융리스", "자산으로 잡고 만기에 인수"),
+                    ("장기렌트", "보험·세금 포함, 하·허·호 번호판"),
+                    ("할부", "출고 때부터 법인 명의"),
+                    ("비교해서 추천", "같은 차·같은 기간으로 나란히 비교"),
+                ])}
+              </div>
+
+              <div class="q-row">
+                <p class="q-label">계약 기간 <span class="req">필수</span></p>
+                {q_chips("period", ["24개월", "36개월", "48개월", "60개월", "아직 미정"])}
+              </div>
+
+              <div class="q-row">
+                <p class="q-label">운행 구분 <span class="opt">선택</span></p>
+                {q_chips("usage", ["영업용 (노란 번호판)", "자가용 (흰 번호판)"])}
+              </div>
+
+              <div class="q-row2">
+                <div class="q-row">
+                  <p class="q-label">선납금 <span class="opt">선택</span></p>
+                  {q_chips("prepay", ["0%", "10%", "20%", "30%"])}
+                </div>
+                <div class="q-row">
+                  <p class="q-label">보증금 <span class="opt">선택</span></p>
+                  {q_chips("deposit", ["0%", "10%", "20%", "30%"])}
+                </div>
+              </div>
+
+              <div class="q-row">
+                <p class="q-label">연간 주행거리 <span class="opt">선택</span></p>
+                {q_chips("km", ["2만km", "3만km", "5만km", "7만km 이상"])}
+              </div>
+
+              <div class="q-row2">
+                <div class="q-row">
+                  <p class="q-label">보험 <span class="opt">선택</span></p>
+                  {q_chips("insurance", ["직접 가입", "가입까지 요청"])}
+                </div>
+                <div class="q-row">
+                  <p class="q-label">정비 <span class="opt">선택</span></p>
+                  {q_chips("maintenance", ["정비 포함", "정비 제외"])}
+                </div>
+              </div>
+
+              <div class="q-nav">
+                <button type="button" class="btn btn-line btn-lg" data-go="2">이전</button>
+                <button type="button" class="btn btn-ink btn-lg" data-go="4">다음 — 신청자 정보</button>
+              </div>
+            </div>
+
+            <div class="q-step" data-step="4" hidden>
+              <h2 class="q-title">견적서를 받으실 분을 알려 주세요</h2>
+              <p class="q-desc">담당자명과 연락처만 필수입니다. 확인하는 대로 견적서를 보내 드립니다.</p>
+
+              <div class="row2">
+                <div class="field">
+                  <label for="qCompany">법인명 <span class="opt">선택</span></label>
+                  <input type="text" id="qCompany" name="company" autocomplete="organization">
+                </div>
+                <div class="field">
+                  <label for="qName">담당자명 <span class="req">필수</span></label>
+                  <input type="text" id="qName" name="name" autocomplete="name" required aria-required="true">
+                </div>
+              </div>
+
+              <div class="row2">
+                <div class="field">
+                  <label for="qPhone">연락처 <span class="req">필수</span></label>
+                  <input type="tel" id="qPhone" name="phone" autocomplete="tel" inputmode="tel" required aria-required="true" placeholder="010-0000-0000">
+                </div>
+                <div class="field">
+                  <label for="qEmail">이메일 <span class="opt">선택</span></label>
+                  <input type="email" id="qEmail" name="email" autocomplete="email" placeholder="견적서 받으실 주소">
+                </div>
+              </div>
+
+              <div class="field">
+                <label for="qMessage">요청 사항 <span class="opt">선택</span></label>
+                <textarea id="qMessage" name="message" rows="3" placeholder="탑 사이즈, 적재 화물, 필요한 시기, 지금 받아 두신 견적 조건 등"></textarea>
+              </div>
+
+              <div class="hp" aria-hidden="true">
+                <label for="qWebsite">웹사이트</label>
+                <input type="text" id="qWebsite" name="website" tabindex="-1" autocomplete="off">
+              </div>
+
+              <div class="q-label">요청 내용 확인</div>
+              <div class="q-sum" id="qSummary"></div>
+
+              <div class="consent">
+                <input type="checkbox" id="qAgree" name="agree" required aria-required="true">
+                <label for="qAgree">견적 안내를 위한 개인정보 수집·이용에 동의합니다.
+                  <span class="consent-d">수집 항목: 법인명, 담당자명, 연락처, 이메일, 요청 차량·조건, 요청 사항 ·
+                    이용 목적: 견적 안내 · 보유 기간: 상담 종료 후 1년.
+                    동의를 거부하실 수 있으며, 이 경우 전화로 문의해 주세요.</span>
+                </label>
+              </div>
+
+              <div class="q-nav">
+                <button type="button" class="btn btn-line btn-lg" data-go="3">이전</button>
+                <button type="submit" class="btn btn-ink btn-lg" id="qSubmit">견적 요청 보내기</button>
+              </div>
+            </div>
+
+            <div class="form-err" id="qError" role="alert" hidden></div>
+          </form>
+        </div>
+
+        <div class="form-done" id="qDone" hidden role="status">
+          <p class="done-t">견적 요청이 접수됐습니다. 조건을 확인해 견적서를 보내 드리겠습니다.</p>
+          <p class="done-d">급하시면 <a href="{TEL_L}">{TEL_D}</a>으로 전화 주세요.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="sec sec-paper">
+    <div class="wrap">
+      <div class="two">
+        <div>
+          <h2 class="h2">차량이 아직 정해지지 않았다면</h2>
+          <p class="lead">운용 중인 차량 정리, 보험·만기 관리, 어떤 차가 맞을지부터 묻고 싶으시면
+            견적 요청 대신 <a class="tlink" href="/contact.html">상담 요청</a>을 남겨 주세요.</p>
+        </div>
+        <div class="note-card">
+          <h3>이미 받으신 견적서가 있다면</h3>
+          <p>다른 곳에서 받으신 견적서나 특장 사양서를 <a class="tlink" href="mailto:{MAIL}">{MAIL}</a>로
+            보내 주세요. 같은 차·같은 기간으로 맞춰 더 나은 조건이 있는지 확인해 드립니다.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+"""
+
+# ==========================================================================
+# 상담 요청
+# ==========================================================================
+CONTACT = page_head(
+    "상담 요청",
+    "법인명과 연락처만 남겨 주시면 됩니다. 차량과 조건을 골라 견적을 받으시려면 견적 요청을 이용해 주세요."
+) + f"""
+  <section class="sec">
+    <div class="wrap">
+      <p class="to-quote">차종·트림·옵션을 직접 골라 견적을 받고 싶으신가요?
+        <a class="tlink" href="/quote.html">견적 요청으로 가기</a></p>
       <div class="contact">
         <div class="contact-call">
           <p class="call-label">전화 상담</p>
@@ -1227,7 +1507,7 @@ def faq_body():
           전화 주시면 그 자리에서 확인해 드립니다.</p>
         <div class="askbox-btns">
           <a class="btn btn-ink btn-lg" href="{TEL_L}">{TEL_D}</a>
-          <a class="btn btn-line btn-lg" href="/contact.html">상담·견적 문의</a>
+          <a class="btn btn-line btn-lg" href="/contact.html">상담 요청</a>
         </div>
       </div>
     </div>
@@ -1320,7 +1600,11 @@ PAGES = [
      "운용리스 보험 비교·가입·갱신 관리와 만기 손익 분석 리포트. "
      "반납과 인수 후 매각을 숫자로 비교하고 매각처까지 연결해 드립니다.", "care.html", None, ""),
 
-    ("contact.html", "상담·견적 문의 — 플릿케어",
+    ("quote.html", "견적 요청 — 법인 화물차·특장차 리스 견적 | 플릿케어",
+     "차종, 트림, 옵션, 특장 사양과 계약 조건을 순서대로 고르면 여러 금융사 조건을 비교한 견적서를 보내 드립니다. "
+     "포터II·봉고3 특장차, 윙바디, 냉동탑, 파워게이트.", "quote.html", None, ""),
+
+    ("contact.html", "상담 요청 — 플릿케어",
      "법인명과 연락처만 남겨 주시면 됩니다. 기존에 받으신 견적서·사양서를 보내시면 더 빠릅니다. "
      "전화 02-6925-0516, 평일 09:00–18:00.", "contact.html", None, ""),
 
@@ -1335,7 +1619,14 @@ BODIES = {
     "service.html": SERVICE,
     "truck.html": TRUCK,
     "care.html": CARE,
+    "quote.html": QUOTE,
     "contact.html": CONTACT,
+}
+
+# 페이지별로 더 불러올 스크립트
+EXTRA_HEAD = {
+    "quote.html": '\n<script src="/truck-data.js" defer></script>'
+                  '\n<script src="/js/quote.js" defer></script>',
 }
 
 PAGE_TITLES = {
@@ -1344,7 +1635,8 @@ PAGE_TITLES = {
     "service.html": "서비스 안내",
     "truck.html": "화물·특장 솔루션",
     "care.html": "보험·만기 케어",
-    "contact.html": "상담·견적 문의",
+    "quote.html": "견적 요청",
+    "contact.html": "상담 요청",
     "faq.html": "자주 묻는 질문",
 }
 
@@ -1365,7 +1657,7 @@ page_blocks = []
 for fname, title, desc, active, _body, cls in PAGES:
     body = faq_body() if fname == "faq.html" else BODIES[fname]
 
-    html = head(title, desc, fname, cls) + header(active) + \
+    html = head(title, desc, fname, cls, EXTRA_HEAD.get(fname, "")) + header(active) + \
         '\n<main id="main">\n' + body + '\n</main>\n' + footer()
 
     html = re.sub(r'href="/([a-z]+)\.html(#[^"]*)?"',

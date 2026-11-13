@@ -288,8 +288,108 @@ async function handleContact(request, env) {
   return json({ ok: true });
 }
 
+/* ---------- 견적 요청 접수 ----------
+   /quote 화면(js/quote.js)이 고른 차량·조건을 [항목, 값] 줄로 보내 준다.
+   금액은 화면에서 계산한 참고값이다. 실제 견적은 사람이 다시 낸다. */
+
+const QUOTE_MAX_ROWS = 30;
+
+function sendMail(env, subject, lines, replyTo) {
+  const headers = [
+    "From: " + encHeader(MAIL_FROM_NAME) + " <" + MAIL_FROM + ">",
+    "To: <" + MAIL_TO + ">",
+    replyTo ? "Reply-To: <" + replyTo + ">" : null,
+    "Subject: " + encHeader(subject),
+    "Message-ID: <" + crypto.randomUUID() + "@fleetcare.co.kr>",
+    "Date: " + new Date().toUTCString(),
+    "MIME-Version: 1.0",
+    'Content-Type: text/plain; charset="UTF-8"',
+    "Content-Transfer-Encoding: base64",
+  ].filter(Boolean).join("\r\n");
+  const raw = headers + "\r\n\r\n" + wrap76(b64(lines.join("\r\n"))) + "\r\n";
+  return env.SEND_EMAIL.send(new EmailMessage(MAIL_FROM, MAIL_TO, raw));
+}
+
+async function handleQuote(request, env) {
+  let body = {};
+  try {
+    body = await request.json();
+  } catch (e) {
+    return json({ ok: false, error: "요청을 읽지 못했습니다." }, 400);
+  }
+
+  if (plain(body.website)) return json({ ok: true });   // 허니팟
+
+  const f = {
+    company: plain(body.company, 100),
+    name: plain(body.name, 50),
+    phone: plain(body.phone, 40),
+    email: plain(body.email, 120),
+    car: plain(body.car, 160),
+    message: String(body.message == null ? "" : body.message).trim().slice(0, 3000),
+  };
+  const rows = (Array.isArray(body.rows) ? body.rows : [])
+    .slice(0, QUOTE_MAX_ROWS)
+    .filter(function (r) { return Array.isArray(r) && r.length === 2; })
+    .map(function (r) { return [plain(r[0], 30), plain(r[1], 600)]; })
+    .filter(function (r) { return r[0] && r[1]; });
+
+  if (!f.car || !rows.length) {
+    return json({ ok: false, error: "차량을 선택해 주세요." }, 400);
+  }
+  if (!f.name) return json({ ok: false, error: "담당자명을 입력해 주세요." }, 400);
+  if (f.phone.replace(/[^0-9]/g, "").length < 9) {
+    return json({ ok: false, error: "연락처를 정확히 입력해 주세요." }, 400);
+  }
+  if (body.agree !== true) {
+    return json({ ok: false, error: "개인정보 수집·이용에 동의해 주세요." }, 400);
+  }
+  if (f.email && !/^[^@\s<>]+@[^@\s<>]+\.[^@\s<>]+$/.test(f.email)) f.email = "";
+
+  if (await overCap(env)) {
+    return json({ ok: false, error: "오늘 접수가 많습니다. " + TEL + "로 전화 주세요." }, 429);
+  }
+  if (!env.SEND_EMAIL) {
+    return json({ ok: false, error: "메일 발송이 아직 설정되지 않았습니다." }, 500);
+  }
+
+  const subject = "[플릿케어 견적] " + (f.company ? f.company + " " : "") + f.name + " / " + f.car;
+  const lines = [
+    "홈페이지에서 견적 요청이 접수되었습니다.",
+    "",
+    "■ 법인명      " + (f.company || "-"),
+    "■ 담당자명    " + f.name,
+    "■ 연락처      " + f.phone,
+    "■ 이메일      " + (f.email || "-"),
+    "",
+    "── 요청 차량·조건",
+  ].concat(
+    rows.map(function (r) { return "· " + r[0] + " : " + r[1]; }),
+    [
+      "",
+      "■ 요청 사항",
+      f.message || "(없음)",
+      "",
+      "─────────────────────",
+      "접수 시각  " + new Date().toLocaleString("ko-KR", { timeZone: "Asia/Seoul" }),
+      "fleetcare.co.kr 견적 요청 폼",
+    ]
+  );
+
+  try {
+    await sendMail(env, subject, lines, f.email);
+  } catch (e) {
+    return json({ ok: false, error: "전송에 실패했습니다.", detail: String(e && e.message) }, 502);
+  }
+  return json({ ok: true });
+}
+
 async function handleApi(request, env, url) {
   const path = url.pathname;
+
+  if (path === "/api/quote" && request.method === "POST") {
+    return handleQuote(request, env);
+  }
 
   if (path === "/api/contact" && request.method === "POST") {
     return handleContact(request, env);

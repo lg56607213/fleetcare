@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>견적 요청 — 법인 화물차·특장차 리스 견적 | 플릿케어</title>
+<meta name="description" content="차종, 트림, 옵션, 특장 사양과 계약 조건을 순서대로 고르면 여러 금융사 조건을 비교한 견적서를 보내 드립니다. 포터II·봉고3 특장차, 윙바디, 냉동탑, 파워게이트.">
+
+<!-- 네이버 서치어드바이저 소유확인 (www / 루트 도메인 각각 등록) -->
+<meta name="naver-site-verification" content="53c28ed440f686cbabbb48f0951c99045587370b" />
+<meta name="naver-site-verification" content="0e321ec8d27f75ccc712e8a74899867167935637" />
+<link rel="canonical" href="https://fleetcare.co.kr/quote">
+<meta name="robots" content="index, follow">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="플릿케어">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:url" content="https://fleetcare.co.kr/quote">
+<meta property="og:title" content="견적 요청 — 법인 화물차·특장차 리스 견적 | 플릿케어">
+<meta property="og:description" content="차종, 트림, 옵션, 특장 사양과 계약 조건을 순서대로 고르면 여러 금융사 조건을 비교한 견적서를 보내 드립니다. 포터II·봉고3 특장차, 윙바디, 냉동탑, 파워게이트.">
+<meta property="og:image" content="https://fleetcare.co.kr/assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/favicon.svg">
+<meta name="theme-color" content="#14293D">
+
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css">
+<link rel="stylesheet" href="/css/style.css">
+
+<script src="/js/main.js" defer></script>
+<script src="/truck-data.js" defer></script>
+<script src="/js/quote.js" defer></script>
+</head>
+<body>
+
+<a class="skip" href="#main">본문 바로가기</a>
+
+<header class="hdr">
+  <div class="wrap hdr-in">
+    <a class="hdr-logo" href="/" aria-label="플릿케어 홈">
+      <img src="/assets/logo.svg" alt="플릿케어 — 법인 차량관리" width="222" height="45">
+    </a>
+
+    <nav class="gnb" id="gnb" aria-label="주요 메뉴">
+      <ul>
+        <li><a href="/about">회사소개</a></li>
+        <li><a href="/service">서비스 안내</a></li>
+        <li><a href="/truck">화물·특장 솔루션</a></li>
+        <li><a href="/care">보험·만기 케어</a></li>
+        <li><a href="/quote" aria-current="page">견적 요청</a></li>
+        <li><a href="/contact">상담 요청</a></li>
+      </ul>
+    </nav>
+
+    <div class="hdr-cta">
+      <a class="hdr-tel" href="tel:0269250516">02-6925-0516</a>
+      <a class="btn btn-ink" href="/quote">견적 요청</a>
+    </div>
+
+    <button class="hdr-menu" type="button" id="menuBtn" aria-expanded="false" aria-controls="gnb" aria-label="메뉴 열기">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="ph">
+    <div class="wrap">
+      
+      <h1><span class="ed" data-edit="quote:b97d64759e">견적 요청</span></h1>
+      <p class="ph-lead"><span class="ed" data-edit="quote:dd5fc3b5e7">차량과 조건을 순서대로 눌러 주세요. 여러 금융사 조건을 같은 기준으로 받아 비교표로 보내 드립니다.</span></p>
+    </div>
+  </section>
+
+  <section class="sec">
+    <div class="wrap">
+      <div class="quote" id="quote">
+
+        <div id="qFlow">
+          <ol class="q-prog" id="qProg">
+            <li class="is-now" aria-current="step"><span class="ed" data-edit="quote:c68ab5e2df">차량 선택</span></li>
+            <li><span class="ed" data-edit="quote:961aca50cd">특장·외주장착</span></li>
+            <li><span class="ed" data-edit="quote:4a40e12389">계약 조건</span></li>
+            <li><span class="ed" data-edit="quote:88134d6929">신청자 정보</span></li>
+          </ol>
+
+          <form id="qForm" novalidate>
+
+            <div class="q-step" data-step="1">
+              <h2 class="q-title"><span class="ed" data-edit="quote:41db65b445">어떤 차량이 필요하신가요</span></h2>
+              <p class="q-desc"><span class="ed" data-edit="quote:1500a8e48c">제조사부터 순서대로 고르시면 예상 차량가가 바로 계산됩니다. 2.5톤 이상이나 목록에 없는 차는 맨 끝의 '목록에 없는 차량'을 눌러 직접 적어 주세요.</span></p>
+
+              <div class="q-row">
+                <p class="q-label"><span class="ed" data-edit="quote:3be712e3be">제조사</span></p>
+                <div class="q-chips" id="qBrand"></div>
+              </div>
+
+              <div class="q-row" id="qManualWrap" hidden>
+                <label class="q-label" for="qManualCar">원하시는 차종</label>
+                <input type="text" id="qManualCar" maxlength="120"
+                       placeholder="예) 현대 마이티 3.5톤 윙바디 / 5톤 냉동탑차">
+                <div class="q-hint">제조사, 톤급, 적재함 형태를 아시는 만큼만 적어 주세요. 가격표에 없는 차량은 확인 후 안내해 드립니다.</div>
+              </div>
+
+              <div class="q-row" id="qCatWrap" hidden>
+                <p class="q-label"><span class="ed" data-edit="quote:af2feed6ce">구분</span></p>
+                <div class="q-chips" id="qCat"></div>
+              </div>
+              <div class="q-row" id="qModelWrap" hidden>
+                <p class="q-label"><span class="ed" data-edit="quote:e803bedf7f">차종</span></p>
+                <div class="q-chips" id="qModel"></div>
+              </div>
+              <div class="q-row" id="qLineWrap" hidden>
+                <p class="q-label"><span class="ed" data-edit="quote:2a79c50d7b">세부 사양</span></p>
+                <div class="q-chips" id="qLine"></div>
+              </div>
+              <div class="q-row" id="qTrimWrap" hidden>
+                <p class="q-label"><span class="ed" data-edit="quote:2f0617c087">트림</span></p>
+                <div class="q-chips" id="qTrim"></div>
+              </div>
+              <div class="q-row" id="qOptWrap" hidden>
+                <p class="q-label"><span class="ed" data-edit="quote:61bf34098e">제조사 옵션 <span class="opt">여러 개 선택</span></span></p>
+                <div class="q-chips" id="qOpt"></div>
+              </div>
+              <div class="q-row" id="qColorWrap" hidden>
+                <p class="q-label"><span class="ed" data-edit="quote:fff4ce7288">색상 <span class="opt">선택</span></span></p>
+                <div id="qExtRow"><div class="q-sub">외장</div><div class="q-chips" id="qExt"></div></div>
+                <div id="qIntRow"><div class="q-sub">내장</div><div class="q-chips" id="qInt"></div></div>
+              </div>
+
+              <div class="q-row">
+                <label class="q-label" for="qQty">대수</label>
+                <div class="q-qty"><input type="number" id="qQty" min="1" max="999" value="1" inputmode="numeric"><span>대</span></div>
+              </div>
+
+              <div class="q-price" id="qPrice" hidden>
+                <div>
+                  <div class="q-price-k">예상 차량가 (1대, 부가세 포함)</div>
+                  <div class="q-price-n" id="qPriceNum">-</div>
+                  <div class="q-price-b" id="qPriceBreak"></div>
+                </div>
+                <div class="q-price-note">제조사 가격표 기준입니다.<br>특장비와 실제 조건은 견적서로 안내합니다.</div>
+              </div>
+
+              <div class="q-nav">
+                <button type="button" class="btn btn-ink btn-lg" data-go="2">다음 — 특장·외주장착</button>
+              </div>
+            </div>
+
+            <div class="q-step" data-step="2" hidden>
+              <h2 class="q-title"><span class="ed" data-edit="quote:41d1163e5a">특장·외주장착이 필요하신가요</span></h2>
+              <p class="q-desc"><span class="ed" data-edit="quote:507f5e58ef">출고 후 따로 제작·장착하는 항목입니다. 특장비를 리스료에 포함할 수 있는 금융사를 먼저 찾습니다. 필요 없으시면 그냥 넘어가셔도 됩니다.</span></p>
+
+              <div class="q-row">
+                <p class="q-label"><span class="ed" data-edit="quote:8a6b609561">장착 항목 <span class="opt">여러 개 선택</span></span></p>
+                <div class="q-chips" data-key="kit" data-multi><button type="button" class="q-chip" data-v="윙바디" aria-pressed="false">윙바디</button><button type="button" class="q-chip" data-v="내장탑" aria-pressed="false">내장탑</button><button type="button" class="q-chip" data-v="냉동·냉장탑" aria-pressed="false">냉동·냉장탑</button><button type="button" class="q-chip" data-v="파워게이트" aria-pressed="false">파워게이트</button><button type="button" class="q-chip" data-v="리프트" aria-pressed="false">리프트</button><button type="button" class="q-chip" data-v="크레인" aria-pressed="false">크레인</button><button type="button" class="q-chip" data-v="하부보강·차바닥" aria-pressed="false">하부보강·차바닥</button><button type="button" class="q-chip" data-v="도색·래핑" aria-pressed="false">도색·래핑</button><button type="button" class="q-chip" data-v="블랙박스" aria-pressed="false">블랙박스</button><button type="button" class="q-chip" data-v="썬팅" aria-pressed="false">썬팅</button></div>
+              </div>
+
+              <div class="q-row">
+                <label class="q-label" for="qKitInput">직접 입력 <span class="opt">선택</span></label>
+                <div class="q-add">
+                  <input type="text" id="qKitInput" maxlength="60" placeholder="예) 탑 내부 선반, 사다리 거치대">
+                  <button type="button" class="btn btn-line" id="qKitAdd">추가</button>
+                </div>
+                <div class="q-tags" id="qKitList"></div>
+              </div>
+
+              <div class="q-row">
+                <p class="q-label"><span class="ed" data-edit="quote:ced4cf7598">구조변경 <span class="opt">선택</span></span></p>
+                <div class="q-chips" data-key="tuning"><button type="button" class="q-chip" data-v="필요합니다" aria-pressed="false">필요합니다</button><button type="button" class="q-chip" data-v="필요 없습니다" aria-pressed="false">필요 없습니다</button><button type="button" class="q-chip" data-v="잘 모르겠습니다" aria-pressed="false">잘 모르겠습니다</button></div>
+              </div>
+
+              <div class="q-nav">
+                <button type="button" class="btn btn-line btn-lg" data-go="1">이전</button>
+                <button type="button" class="btn btn-ink btn-lg" data-go="3">다음 — 계약 조건</button>
+              </div>
+            </div>
+
+            <div class="q-step" data-step="3" hidden>
+              <h2 class="q-title"><span class="ed" data-edit="quote:4b9838ea64">원하시는 계약 조건을 알려 주세요</span></h2>
+              <p class="q-desc"><span class="ed" data-edit="quote:1288fbd7be">상품 종류와 계약 기간만 필수입니다. 나머지는 정하지 않으셔도 됩니다.</span></p>
+
+              <div class="q-row">
+                <p class="q-label"><span class="ed" data-edit="quote:7dc3ece709">상품 종류 <span class="req">필수</span></span></p>
+                <div class="q-cards" data-key="product"><button type="button" class="q-card" data-v="운용리스" aria-pressed="false"><strong>운용리스</strong><span>매달 내는 돈을 비용 처리</span></button><button type="button" class="q-card" data-v="금융리스" aria-pressed="false"><strong>금융리스</strong><span>자산으로 잡고 만기에 인수</span></button><button type="button" class="q-card" data-v="장기렌트" aria-pressed="false"><strong>장기렌트</strong><span>보험·세금 포함, 하·허·호 번호판</span></button><button type="button" class="q-card" data-v="할부" aria-pressed="false"><strong>할부</strong><span>출고 때부터 법인 명의</span></button><button type="button" class="q-card" data-v="비교해서 추천" aria-pressed="false"><strong>비교해서 추천</strong><span>같은 차·같은 기간으로 나란히 비교</span></button></div>
+              </div>
+
+              <div class="q-row">
+                <p class="q-label"><span class="ed" data-edit="quote:44e9e7fa76">계약 기간 <span class="req">필수</span></span></p>
+                <div class="q-chips" data-key="period"><button type="button" class="q-chip" data-v="24개월" aria-pressed="false">24개월</button><button type="button" class="q-chip" data-v="36개월" aria-pressed="false">36개월</button><button type="button" class="q-chip" data-v="48개월" aria-pressed="false">48개월</button><button type="button" class="q-chip" data-v="60개월" aria-pressed="false">60개월</button><button type="button" class="q-chip" data-v="아직 미정" aria-pressed="false">아직 미정</button></div>
+              </div>
+
+              <div class="q-row">
+                <p class="q-label"><span class="ed" data-edit="quote:3f88b32a7e">운행 구분 <span class="opt">선택</span></span></p>
+                <div class="q-chips" data-key="usage"><button type="button" class="q-chip" data-v="영업용 (노란 번호판)" aria-pressed="false">영업용 (노란 번호판)</button><button type="button" class="q-chip" data-v="자가용 (흰 번호판)" aria-pressed="false">자가용 (흰 번호판)</button></div>
+              </div>
+
+              <div class="q-row2">
+                <div class="q-row">
+                  <p class="q-label"><span class="ed" data-edit="quote:4f3f0bff08">선납금 <span class="opt">선택</span></span></p>
+                  <div class="q-chips" data-key="prepay"><button type="button" class="q-chip" data-v="0%" aria-pressed="false">0%</button><button type="button" class="q-chip" data-v="10%" aria-pressed="false">10%</button><button type="button" class="q-chip" data-v="20%" aria-pressed="false">20%</button><button type="button" class="q-chip" data-v="30%" aria-pressed="false">30%</button></div>
+                </div>
+                <div class="q-row">
+                  <p class="q-label"><span class="ed" data-edit="quote:4b8ab2d5ad">보증금 <span class="opt">선택</span></span></p>
+                  <div class="q-chips" data-key="deposit"><button type="button" class="q-chip" data-v="0%" aria-pressed="false">0%</button><button type="button" class="q-chip" data-v="10%" aria-pressed="false">10%</button><button type="button" class="q-chip" data-v="20%" aria-pressed="false">20%</button><button type="button" class="q-chip" data-v="30%" aria-pressed="false">30%</button></div>
+                </div>
+              </div>
+
+              <div class="q-row">
+                <p class="q-label"><span class="ed" data-edit="quote:be3ef98ecc">연간 주행거리 <span class="opt">선택</span></span></p>
+                <div class="q-chips" data-key="km"><button type="button" class="q-chip" data-v="2만km" aria-pressed="false">2만km</button><button type="button" class="q-chip" data-v="3만km" aria-pressed="false">3만km</button><button type="button" class="q-chip" data-v="5만km" aria-pressed="false">5만km</button><button type="button" class="q-chip" data-v="7만km 이상" aria-pressed="false">7만km 이상</button></div>
+              </div>
+
+              <div class="q-row2">
+                <div class="q-row">
+                  <p class="q-label"><span class="ed" data-edit="quote:85da51717f">보험 <span class="opt">선택</span></span></p>
+                  <div class="q-chips" data-key="insurance"><button type="button" class="q-chip" data-v="직접 가입" aria-pressed="false">직접 가입</button><button type="button" class="q-chip" data-v="가입까지 요청" aria-pressed="false">가입까지 요청</button></div>
+                </div>
+                <div class="q-row">
+                  <p class="q-label"><span class="ed" data-edit="quote:4d66806929">정비 <span class="opt">선택</span></span></p>
+                  <div class="q-chips" data-key="maintenance"><button type="button" class="q-chip" data-v="정비 포함" aria-pressed="false">정비 포함</button><button type="button" class="q-chip" data-v="정비 제외" aria-pressed="false">정비 제외</button></div>
+                </div>
+              </div>
+
+              <div class="q-nav">
+                <button type="button" class="btn btn-line btn-lg" data-go="2">이전</button>
+                <button type="button" class="btn btn-ink btn-lg" data-go="4">다음 — 신청자 정보</button>
+              </div>
+            </div>
+
+            <div class="q-step" data-step="4" hidden>
+              <h2 class="q-title"><span class="ed" data-edit="quote:a6d490aea2">견적서를 받으실 분을 알려 주세요</span></h2>
+              <p class="q-desc"><span class="ed" data-edit="quote:27b86faec6">담당자명과 연락처만 필수입니다. 확인하는 대로 견적서를 보내 드립니다.</span></p>
+
+              <div class="row2">
+                <div class="field">
+                  <label for="qCompany">법인명 <span class="opt">선택</span></label>
+                  <input type="text" id="qCompany" name="company" autocomplete="organization">
+                </div>
+                <div class="field">
+                  <label for="qName">담당자명 <span class="req">필수</span></label>
+                  <input type="text" id="qName" name="name" autocomplete="name" required aria-required="true">
+                </div>
+              </div>
+
+              <div class="row2">
+                <div class="field">
+                  <label for="qPhone">연락처 <span class="req">필수</span></label>
+                  <input type="tel" id="qPhone" name="phone" autocomplete="tel" inputmode="tel" required aria-required="true" placeholder="010-0000-0000">
+                </div>
+                <div class="field">
+                  <label for="qEmail">이메일 <span class="opt">선택</span></label>
+                  <input type="email" id="qEmail" name="email" autocomplete="email" placeholder="견적서 받으실 주소">
+                </div>
+              </div>
+
+              <div class="field">
+                <label for="qMessage">요청 사항 <span class="opt">선택</span></label>
+                <textarea id="qMessage" name="message" rows="3" placeholder="탑 사이즈, 적재 화물, 필요한 시기, 지금 받아 두신 견적 조건 등"></textarea>
+              </div>
+
+              <div class="hp" aria-hidden="true">
+                <label for="qWebsite">웹사이트</label>
+                <input type="text" id="qWebsite" name="website" tabindex="-1" autocomplete="off">
+              </div>
+
+              <div class="q-label">요청 내용 확인</div>
+              <div class="q-sum" id="qSummary"></div>
+
+              <div class="consent">
+                <input type="checkbox" id="qAgree" name="agree" required aria-required="true">
+                <label for="qAgree">견적 안내를 위한 개인정보 수집·이용에 동의합니다.
+                  <span class="consent-d">수집 항목: 법인명, 담당자명, 연락처, 이메일, 요청 차량·조건, 요청 사항 ·
+                    이용 목적: 견적 안내 · 보유 기간: 상담 종료 후 1년.
+                    동의를 거부하실 수 있으며, 이 경우 전화로 문의해 주세요.</span>
+                </label>
+              </div>
+
+              <div class="q-nav">
+                <button type="button" class="btn btn-line btn-lg" data-go="3">이전</button>
+                <button type="submit" class="btn btn-ink btn-lg" id="qSubmit">견적 요청 보내기</button>
+              </div>
+            </div>
+
+            <div class="form-err" id="qError" role="alert" hidden></div>
+          </form>
+        </div>
+
+        <div class="form-done" id="qDone" hidden role="status">
+          <p class="done-t"><span class="ed" data-edit="quote:70858c1933">견적 요청이 접수됐습니다. 조건을 확인해 견적서를 보내 드리겠습니다.</span></p>
+          <p class="done-d">급하시면 <a href="tel:0269250516">02-6925-0516</a>으로 전화 주세요.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="sec sec-paper">
+    <div class="wrap">
+      <div class="two">
+        <div>
+          <h2 class="h2"><span class="ed" data-edit="quote:3167796aef">차량이 아직 정해지지 않았다면</span></h2>
+          <p class="lead">운용 중인 차량 정리, 보험·만기 관리, 어떤 차가 맞을지부터 묻고 싶으시면
+            견적 요청 대신 <a class="tlink" href="/contact">상담 요청</a>을 남겨 주세요.</p>
+        </div>
+        <div class="note-card">
+          <h3><span class="ed" data-edit="quote:85d2301f7c">이미 받으신 견적서가 있다면</span></h3>
+          <p>다른 곳에서 받으신 견적서나 특장 사양서를 <a class="tlink" href="mailto:jdgp@jdgp.co.kr">jdgp@jdgp.co.kr</a>로
+            보내 주세요. 같은 차·같은 기간으로 맞춰 더 나은 조건이 있는지 확인해 드립니다.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="ftr">
+  <div class="wrap ftr-in">
+    <div class="ftr-brand">
+      <img src="/assets/logo-white.svg" alt="플릿케어" width="200" height="41">
+      <p class="ftr-tag"><span class="ed" data-edit="common:0d13723362">법인 전용 플릿 에이전트 — 도입·특장·보험·만기 통합 케어</span></p>
+    </div>
+
+    <nav class="ftr-nav" aria-label="사이트 메뉴">
+      <p class="ftr-h"><span class="ed" data-edit="common:076925c571">메뉴</span></p>
+      <ul><li><a href="/about">회사소개</a></li><li><a href="/service">서비스 안내</a></li><li><a href="/truck">화물·특장 솔루션</a></li><li><a href="/care">보험·만기 케어</a></li><li><a href="/quote">견적 요청</a></li><li><a href="/contact">상담 요청</a></li><li><a href="/faq">자주 묻는 질문</a></li></ul>
+    </nav>
+
+    <div class="ftr-info">
+      <p class="ftr-h"><span class="ed" data-edit="common:04c7732988">회사 정보</span></p>
+      <dl>
+        <div><dt><span class="ed" data-edit="common:5f0e2c9b01">상호</span></dt><dd><span class="ed" data-edit="common:3c1bfd30a8">주식회사 제이디엔드</span></dd></div>
+        <div><dt><span class="ed" data-edit="common:120372c65f">대표이사</span></dt><dd><span class="ed" data-edit="common:734f220740">박동천</span></dd></div>
+        <div><dt><span class="ed" data-edit="common:dd86c376c1">사업자등록번호</span></dt><dd><span class="ed" data-edit="common:a6c40b58d8">766-86-02631</span></dd></div>
+        <div><dt><span class="ed" data-edit="common:117bab8097">주소</span></dt><dd><span class="ed" data-edit="common:d5e1c39d47">서울특별시 영등포구 여의대방로 379, 605호</span></dd></div>
+        <div><dt><span class="ed" data-edit="common:cc90791fff">대표전화</span></dt><dd><a href="tel:0269250516">02-6925-0516</a></dd></div>
+        <div><dt><span class="ed" data-edit="common:3c37764a2b">이메일</span></dt><dd><a href="mailto:jdgp@jdgp.co.kr">jdgp@jdgp.co.kr</a></dd></div>
+      </dl>
+    </div>
+  </div>
+  <div class="wrap ftr-copy">
+    <p><span class="ed" data-edit="common:36a7528cda">© 2026 주식회사 제이디엔드. All rights reserved.</span></p>
+  </div>
+</footer>
+
+<div class="mbar">
+  <a class="mbar-tel" href="tel:0269250516" aria-label="전화 상담 02-6925-0516">전화 상담</a>
+  <a class="mbar-ask" href="/contact">상담 요청</a>
+  <a class="mbar-form" href="/quote">견적 요청</a>
+</div>
+
+</body>
+</html>
