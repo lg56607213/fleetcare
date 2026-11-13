@@ -960,3 +960,108 @@ select:focus { border-color: var(--green); outline: 2px solid rgba(34,160,107,.2
   letter-spacing: -0.03em; color: var(--green);
 }
 .net-key > p:not(.net-n) { margin-top: 10px; }
+
+/* ==========================================================================
+   견적 요청 (/quote) — 눌러서 고르는 4단계 폼. 동작은 js/quote.js
+   ========================================================================== */
+.quote { max-width: 820px; margin: 0 auto; background: #fff; border: 1px solid var(--line); padding: 34px 36px 36px; }
+.quote [hidden] { display: none !important; }
+
+.q-prog { list-style: none; margin: 0 0 34px; padding: 0; display: grid; grid-template-columns: repeat(4, 1fr); counter-reset: q; }
+.q-prog li {
+  counter-increment: q; position: relative; padding-top: 12px;
+  border-top: 3px solid var(--line); font-size: 14px; font-weight: 600; color: var(--slate);
+}
+.q-prog li::before { content: counter(q) ". "; font-variant-numeric: tabular-nums; }
+.q-prog li.is-done { border-top-color: var(--ink); color: var(--ink); }
+.q-prog li.is-now { border-top-color: var(--green); color: var(--ink); font-weight: 700; }
+
+.q-title { font-size: 24px; line-height: 1.4; letter-spacing: -0.02em; margin: 0; }
+.q-desc { margin: 8px 0 28px; font-size: 15.5px; color: var(--slate); }
+.q-row { margin-bottom: 24px; }
+.q-row2 { display: grid; grid-template-columns: 1fr 1fr; gap: 0 24px; }
+.q-label { display: block; margin: 0 0 9px; font-size: 14px; font-weight: 700; }
+.q-sub { margin: 10px 0 6px; font-size: 13px; color: var(--slate); }
+.q-hint { margin-top: 7px; font-size: 13.5px; color: var(--slate); }
+
+.q-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.q-chip, .q-card {
+  font-family: inherit; color: var(--ink); background: #fff; cursor: pointer;
+  border: 1px solid var(--line); border-radius: 3px;
+  transition: border-color .15s ease, background-color .15s ease;
+}
+.q-chip { padding: 9px 15px; font-size: 15px; font-weight: 500; line-height: 1.4; }
+.q-chip:hover, .q-card:hover { border-color: var(--ink); }
+.q-chip:focus-visible, .q-card:focus-visible { outline: 2px solid var(--green); outline-offset: 2px; }
+.q-chip.is-on, .q-card.is-on { background: var(--ink); border-color: var(--ink); color: #fff; }
+.q-chip.is-on { font-weight: 700; }
+.q-chip-p { margin-left: 7px; font-size: 13px; font-weight: 400; opacity: .7; font-variant-numeric: tabular-nums; }
+
+.q-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 8px; }
+.q-card { padding: 14px 16px; text-align: left; line-height: 1.5; }
+.q-card strong { display: block; font-size: 16px; }
+.q-card span { display: block; margin-top: 3px; font-size: 13.5px; color: var(--slate); }
+.q-card.is-on span { color: #C9D5DE; }
+
+.q-qty { display: flex; align-items: center; gap: 8px; }
+.q-qty input {
+  width: 96px; font-family: inherit; font-size: 16px; color: var(--ink);
+  padding: 11px 13px; border: 1px solid var(--line); border-radius: 3px; font-variant-numeric: tabular-nums;
+}
+
+.q-price {
+  display: flex; justify-content: space-between; align-items: flex-end; gap: 18px;
+  margin-top: 4px; padding: 20px 22px; background: var(--paper); border-left: 3px solid var(--green);
+}
+.q-price-k { font-size: 13px; color: var(--slate); }
+.q-price-n { font-size: 28px; font-weight: 800; line-height: 1.3; letter-spacing: -0.02em; font-variant-numeric: tabular-nums; }
+.q-price-b { font-size: 13.5px; color: var(--slate); font-variant-numeric: tabular-nums; }
+.q-price-note { font-size: 13px; color: var(--slate); text-align: right; line-height: 1.6; }
+
+.q-add { display: flex; gap: 8px; }
+.q-add input { flex: 1; }
+.q-add .btn { white-space: nowrap; }
+.q-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+.q-tag {
+  display: inline-flex; align-items: center; gap: 6px; padding: 6px 6px 6px 13px;
+  font-size: 14px; font-weight: 600; background: var(--ink); color: #fff; border-radius: 3px;
+}
+.q-tag button {
+  width: 24px; height: 24px; border: 0; background: transparent; color: #fff;
+  font-size: 17px; line-height: 1; cursor: pointer; font-family: inherit;
+}
+
+.q-sum { margin-bottom: 4px; border-top: 2px solid var(--ink); }
+.q-sum-row { display: grid; grid-template-columns: 132px 1fr; gap: 14px; padding: 10px 2px; border-bottom: 1px solid var(--line); font-size: 15px; }
+.q-sum-k { color: var(--slate); }
+.q-sum-v { font-weight: 600; font-variant-numeric: tabular-nums; }
+
+.q-nav { display: flex; gap: 10px; margin-top: 30px; }
+.q-nav .btn-ink { flex: 1; }
+.quote .form-err { margin-top: 16px; }
+
+.to-quote { margin: 0 0 22px; padding: 14px 18px; background: var(--paper); border-left: 3px solid var(--green); font-size: 15.5px; }
+.to-quote .tlink { margin-left: 6px; font-weight: 700; }
+
+/* 모바일 하단 바 — 전화 · 상담 요청 · 견적 요청 */
+.mbar-tel { flex: 1 1 0; }
+.mbar-ask { flex: 1 1 0; background: #1F3A52; color: #fff; }
+.mbar-form { flex: 1 1 0; }
+
+@media (max-width: 760px) {
+  .quote { padding: 24px 18px 26px; border-left: 0; border-right: 0; margin: 0 calc(var(--pad) * -1); }
+  .q-prog { margin-bottom: 26px; gap: 6px; }
+  .q-prog li { font-size: 12px; padding-top: 9px; letter-spacing: -0.03em; }
+  .q-title { font-size: 21px; }
+  .q-row2 { grid-template-columns: 1fr; }
+  .q-chip { padding: 10px 13px; font-size: 14.5px; }
+  .q-price { flex-direction: column; align-items: flex-start; }
+  .q-price-note { text-align: left; }
+  .q-price-n { font-size: 25px; }
+  .q-sum-row { grid-template-columns: 104px 1fr; gap: 10px; font-size: 14.5px; }
+  .q-nav .btn { padding-left: 16px; padding-right: 16px; }
+}
+
+@media print {
+  .q-nav, .q-prog { display: none !important; }
+}
